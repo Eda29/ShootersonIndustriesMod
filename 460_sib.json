@@ -1,0 +1,159 @@
+[
+    {
+        "id": "sh_460_P2",
+        "type": "AMMO",
+        "name": {
+          "str_sp": ".460 Siberian Express"
+        },
+        "description": "essentially +P+ .460 Rowland, .460 Siberian Express is an extremely powerful cartridge that packs the power of an intermediate rifle cartridge moreso than a pistol. Loaded with a 207 gr ballistic tip jacketed hollowpoint bullet, this round is meant to devastate soft targets and flesh. Despite this, the sheer amount of Oomph behind the round makes it punch through some softer armour. Though dimensionally identical to regular .460 Rowland, its much MUCH higher pressures mean that you don't feel safe firing it out of a regular .460 gun, let alone a plain old .45 ACP one.",
+        "weight": "29 g",
+        "volume": "107 ml",
+        "longest_side": "36 mm",
+        "price": "6 USD",
+        "price_postapoc": "10 USD",
+        "flags": [
+          "IRREPLACEABLE_CONSUMABLE"
+        ],
+        "material": [
+          "brass",
+          "lead",
+          "powder"
+        ],
+        "symbol": "=",
+        "color": "light_gray",
+        "count": 20,
+        "stack_size": 20,
+        "ammo_type": "460row",
+        "casing": "sh_460sib_casing",
+        "range": 23,
+        "damage": {
+          "damage_type": "bullet",
+          "amount": 48,
+          "armor_penetration": 7.65,
+          "barrels": [
+            {
+              "barrel_length": "27 mm",
+              "amount": 27
+            },
+            {
+              "barrel_length": "30 mm",
+              "amount": 28
+            },
+            {
+              "barrel_length": "33 mm",
+              "amount": 29
+            },
+            {
+              "barrel_length": "36 mm",
+              "amount": 30
+            },
+            {
+              "barrel_length": "41 mm",
+              "amount": 31
+            },
+            {
+              "barrel_length": "45 mm",
+              "amount": 32
+            },
+            {
+              "barrel_length": "50 mm",
+              "amount": 33
+            },
+            {
+              "barrel_length": "53 mm",
+              "amount": 35
+            },
+            {
+              "barrel_length": "61 mm",
+              "amount": 36
+            },
+            {
+              "barrel_length": "70 mm",
+              "amount": 37
+            },
+            {
+              "barrel_length": "79 mm",
+              "amount": 38
+            },
+            {
+              "barrel_length": "87 mm",
+              "amount": 39
+            },
+            {
+              "barrel_length": "96 mm",
+              "amount": 40
+            },
+            {
+              "barrel_length": "113 mm",
+              "amount": 42
+            },
+            {
+              "barrel_length": "131 mm",
+              "amount": 43
+            },
+            {
+              "barrel_length": "157 mm",
+              "amount": 44
+            },
+            {
+              "barrel_length": "183 mm",
+              "amount": 45
+            },
+            {
+              "barrel_length": "217 mm",
+              "amount": 46
+            },
+            {
+              "barrel_length": "261 mm",
+              "amount": 47
+            },
+            {
+              "barrel_length": "313 mm",
+              "amount": 48
+            },
+            {
+              "barrel_length": "382 mm",
+              "amount": 50
+            },
+            {
+              "barrel_length": "452 mm",
+              "amount": 51
+            },
+            {
+              "barrel_length": "576 mm",
+              "amount": 52
+            },
+            {
+              "barrel_length": "726 mm",
+              "amount": 53
+            },
+            {
+              "barrel_length": "950 mm",
+              "amount": 54
+            },
+            {
+              "barrel_length": "1246 mm",
+              "amount": 56
+            }
+          ]
+        },
+        "dispersion": 22,
+        "recoil": 2177,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES"
+        ]
+      },
+      {
+        "id": "sh_460_AP",
+        "copy-from": "sh_460_P2",
+        "type": "AMMO",
+        "name": { "str_sp": ".460 Siberian Express HVAP" },
+        "description": "Essentially +P+ .460 Rowland, .460 Siberian Express is an incredibly powerful pistol cartridge, rivalling some intermediate rifle rounds in performance. This one specifically is loaded even hotter with an 185 gr Armour-piercing bullet with a tungsten penetrator that loosely resembles a m93 HVAP shell. As such, it will shred through most pistol-rated and even some rifle armour, at the cost of a majority of its stopping power. Though dimensionally identical to regular .460 Rowland, its much MUCH higher pressures mean that you don't feel safe firing it out of a regular .460 gun, let alone a plain old .45 ACP one.",
+        "price": "8 USD",
+        "price_postapoc": "10 USD",
+        "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+        "relative": { "damage": { "damage_type": "bullet", "amount": -8, "armor_penetration": 14 }, "dispersion": 11 },
+        "proportional": { "recoil": 1.1 }
+      }
+]

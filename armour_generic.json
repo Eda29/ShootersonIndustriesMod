@@ -1,0 +1,532 @@
+[
+    {
+        "id": "sh_bodymesh_open",
+        "type":"ARMOR",
+        "name": 
+        {
+            "str": "wanderer's bodymesh",
+            "str_pl": "wanderer's bodymeshes"
+        },
+        "description": "A quite complex and perhaps a little over-engineered skintight bodysuit that is protective, yet incredibly light and breathable.  It is made in a manner not unlike composite armor, or perhaps a very disgusting layercake. And it even features an advanced webbing of loose aramid fiber mesh for more protection. also features integrated feet and gloves. can be inexplicably adjusted for warmth. activate to tighten",
+        "weight": "1025 g",
+        "volume": "1078 ml",
+        "price": "230 USD",
+        "price_postapoc": "12 USD",
+        "material": ["lycra","neoprene", "nomex","kevlar"],
+        "symbol": "[",
+        "looks_like": "union_suit",
+        "color": "white",
+        "armor": [
+        {
+            "material": 
+            [{ "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },{ "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },{ "type": "neoprene", "covered_by_mat": 100, "thickness": 1.0 },{ "type": "kevlar", "covered_by_mat": 44, "thickness": 0.62 }],
+            "covers": ["torso", "arm_l", "arm_r", "leg_l", "leg_r"],
+            "coverage": 100,
+            "encumbrance": 1,
+            "breathability": "GOOD"
+        },
+        {
+            "material": 
+            [ { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },{ "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },{ "type": "neoprene", "covered_by_mat": 100, "thickness": 0.8 }, { "type": "kevlar", "covered_by_mat": 44, "thickness": 0.54 } ],
+            "covers": [ "foot_l","foot_r", "hand_l", "hand_r"],
+            "specifically_covers":["foot_toes_r", "foot_toes_l", "foot_arch_r", "foot_arch_l", "foot_ankle_r", "foot_ankle_l", 
+            "hand_back_l","hand_back_r","hand_wrist_l","hand_wrist_r","hand_fingers_l", "hand_fingers_r"],      
+            "coverage": 100,      
+            "encumbrance": 0,      
+            "breathability": "GOOD"    
+        },
+        {
+            "covers": ["foot_l","foot_r","hand_l","hand_r"],
+              "specifically_covers": [
+                "foot_sole_r","foot_sole_l", "foot_heel_r", "foot_heel_l","hand_palm_r","hand_palm_l"],
+              "material": [ { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 }, { "type": "neoprene", "covered_by_mat":100, "thickness": 0.8 }, { "type":"nomex", "covered_by_mat":100, "thickness":1.2 }, { "type":"kevlar","covered_by_mat":80, "thickness":1.0}, { "type": "butyl_rubber", "covered_by_mat": 86,"thickness": 1.2} ],
+              "coverage": 100,      
+            "encumbrance": 0,      
+            "breathability": "GOOD"    
+              }
+        ],
+              "use_action": {
+            "type": "transform",
+            "msg": "You tighten your %s for warmth.",
+            "target": "sh_bodymesh_warm",
+            "menu_text": "Tighten"
+          },
+        "warmth": 5,  
+        "material_thickness": 1,  
+        "environmental_protection": 3,  
+        "flags": ["VARSIZE","SKINTIGHT","HOOD","STURDY","SOFT","WATER_FRIENDLY","RAINPROOF","ALLOWS_NATURAL_ATTACKS"]
+    },
+    
+    {
+        "id" :"sh_bodymesh_warm",
+        "type":"ARMOR",
+        "name": 
+        {
+            "str": "wanderer's bodymesh (tight)",
+            "str_pl": "wanderer's bodymeshes (tight)"
+        },
+        "description": "A quite complex and perhaps a little over-engineered skintight bodysuit that is protective, yet incredibly light and breathable.  It is made in a manner not unlike composite armor, or perhaps a very disgusting layercake. And it even features an advanced webbing of loose aramid fiber mesh for more protection. also features integrated feet and gloves. currently worn warmer. activate to loosen.",
+              "use_action": {
+            "type": "transform",
+            "msg": "You loosen your %s.",
+            "target": "sh_bodymesh_open",
+            "menu_text": "Loosen"
+          },
+        "warmth": 22,  
+        "material_thickness": 1,  
+        "environmental_protection": 3,  
+        "flags": ["VARSIZE","COLLAR","SKINTIGHT","HOOD","STURDY","SOFT","WATER_FRIENDLY","RAINPROOF", "ALLOWS_NATURAL_ATTACKS"],
+        "copy-from": "sh_bodymesh_open"
+        },
+    {
+      "id": "sh_thigh_plates",
+      "type": "ARMOR",
+      "category": "armor",
+      "name": {"str": "ballistic thigh protector", "str_pl": "ballistic thigh protectors"},
+      "looks_like":"legguard_metal",
+      "description": "Nylon armor with soft armor inserts protecting the outer thighs. though these were designed to be worn along side heavy body armour or a special harness, you could clip it to your normal belt or even your pants if you're particularly desperate. though before the cataclysm these weren't particularly common, nowadays protection for your carotid arteries is quite appreaciated. come to think of it, despite them being relatively mass market, you haven't found any up until now, or you made them, either way, this seems odd. features some MOLLE webbing for making your legs more tacticool",
+      "weight": "854 g",
+      "volume": "620 ml",
+      "price": "600 USD",
+      "price_postapoc": "5 USD",
+      "symbol": ",",
+      "material": ["kevlar_layered","nylon"],
+      "color": "dark_gray",
+      "warmth": 8,
+      "sided": true,
+      "flags": ["STURDY","OUTER","WATER_FRIENDLY"],
+      "use_action": [ { "type": "attach_molle", "size": 3 }, {"type": "detach_molle"} ],
+      "armor": [
+        {
+          "material": [ {"type": "nylon","covered_by_mat": 100,"thickness": 1.2 },{"type": "kevlar_layered","covered_by_mat": 95,"thickness": 4.4} ],
+          "encumbrance": 2,
+          "coverage": 82,
+          "cover_melee": 80,
+          "cover_ranged": 95,
+          "cover_vitals": 100,
+          "covers": [
+            "leg_l",
+            "leg_r"
+          ],
+          "specifically_covers": [
+            "leg_upper_l",
+            "leg_upper_r"
+          ],
+          "volume_encumber_modifier": 0.15
+        }
+      ]
+    },
+    {
+      "id": "sh_boots_assault",
+      "type": "ARMOR",
+      "category": "armor",
+      "name": {"str": "pair of Deathwalker boots","str_pl": "pairs of Deathwalker boots"},
+      "description": "A pair of quite heavy-duty looking tacticool boots constructed of 'patented supermaterials' and 'specially engineered construction' and other buzzwords to draw in and seperate the money from some rich prepper or mall-ninja type. However, these claims are actually true, even featuring a spike proof plate in the sole a-la old jungle boots. admittedly, they also look quite elegant in a sort of 'you could curb stomp a tank with these and the tank will come off worse' way. Keeps your feet frankly RIDICULOUSLY safe from all manner of the myriad threats of the apocolypse they were designed for.",
+      "weight": "1860 g",
+      "volume": "2500 ml",
+      "price": "4000 USD",
+      "price_postapoc": "80 USD",
+      "to_hit": {
+        "grip": "none",
+        "length": "hand",
+        "surface": "any",
+        "balance": "clumsy"
+      },
+      "material": [
+        "kevlar",
+        "nomex",
+        "leather",
+        "qt_steel"
+      ],
+      "symbol": "[",
+      "looks_like": "boots_combat",
+      "color": "brown",
+      "warmth": 30,
+      "material_thickness": 3,
+      "environmental_protection": 8.62,
+      "flags": [
+        "VARSIZE",
+        "WATERPROOF",
+        "STURDY",
+        "ALLOWS_NATURAL_ATTACKS"
+      ],
+      "armor": [
+        {
+          "covers": [
+            "foot_l",
+            "foot_r"
+          ],
+          "specifically_covers": [
+            "foot_ankle_r",
+            "foot_ankle_l",
+            "foot_arch_r",
+            "foot_arch_l",
+            "foot_heel_r",
+            "foot_heel_l"
+          ],
+          "material": [
+            { "type": "kevlar", "covered_by_mat": 100, "thickness": 2.2 },
+            { "type": "nomex", "covered_by_mat": 100, "thickness": 0.4 },
+            { "type": "leather_treated", "covered_by_mat": 100, "thickness": 0.8 }
+          ],
+          "encumbrance": 12,
+          "coverage": 100
+        },
+        {
+          "covers": [
+            "foot_l",
+            "foot_r"
+          ],
+          "specifically_covers": [
+            "foot_toes_r",
+            "foot_toes_l"
+          ],
+          "material": [
+            { "type": "kevlar", "covered_by_mat": 100, "thickness": 2.2 },
+            { "type": "nomex", "covered_by_mat": 100, "thickness": 0.4 },
+            { "type": "leather_treated", "covered_by_mat": 100, "thickness": 0.8 },
+            { "type": "qt_steel", "covered_by_mat": 100, "thickness": 0.5 }
+          ],
+          "coverage": 100
+        },
+        {
+          "covers": [
+            "foot_l",
+            "foot_r"
+          ],
+          "specifically_covers": [
+            "foot_sole_r",
+            "foot_sole_l"
+          ],
+          "material": [
+            { "type": "leather_treated", "covered_by_mat": 100, "thickness": 0.32 },
+            { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
+            { "type": "nomex", "covered_by_mat": 100, "thickness": 0.4 },
+            { "type": "qt_steel", "covered_by_mat": 100, "thickness": 0.24 },
+            { "type": "rubber", "covered_by_mat": 100, "thickness": 6 }
+          ],
+          "coverage": 100
+        }
+      ],
+      "melee_damage": {
+        "bash": 6
+      }
+    },
+    {
+      "id": "sh_helmet_assault",
+      "type": "ARMOR",
+      "category": "armor",
+      "name": {"str": "B-52 assault helmet", "str_pl":"B-52 assault helmets"},
+      "description": "A quite heavy combat helmet that provides excellent protection from all sorts of damage.  It is labeled as the B-52 helmet and features the namesake bomber hidden in the camoflage pattern.",
+      "weight": "1766 g",
+      "volume": "1750 ml",
+      "longest_side": "33 cm",
+      "price": "350 USD",
+      "price_postapoc": "35 USD",
+      "to_hit": 0,
+      "material": ["kevlar_rigid","thermo_resin"],
+      "symbol": "[",
+      "looks_like": "helmet_army",
+      "color": "green",
+      "warmth": 20,
+      "material_thickness": 9,
+      "environmental_protection": 5.2,
+      "techniques": [
+        "WBLOCK_1"
+      ],
+      "flags": [
+        "VARSIZE",
+        "WATERPROOF",
+        "STURDY",
+        "PADDED",
+        "MODULE_HOLDER",
+        "ALLOWS_NATURAL_ATTACKS"
+      ],
+      "armor": [
+        {
+          "encumbrance": 
+            27,
+          "coverage": 100,
+          "cover_melee": 80,
+          "cover_ranged": 95,
+          "cover_vitals": 100,
+          "covers": [
+            "head"
+          ],
+          "specifically_covers": [
+            "head_crown",
+            "head_forehead"
+          ]
+        },
+        {
+          "coverage": 58,
+          "covers": [
+            "head"
+          ],
+          "specifically_covers": [
+            "head_ear_l",
+            "head_ear_r"
+          ]
+        }
+      ],
+      "pocket_data": [
+        {
+          "pocket_type": "CONTAINER",
+          "ablative": true,
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "2 L",
+          "max_contains_weight": "2 kg",
+          "moves": 250,
+          "description": "Pocket for a face shield, or a front night vision attachment.",
+          "flag_restriction": [
+            "HELMET_FACE_SHIELD",
+            "HELMET_FRONT_ATTACHMENT"
+          ],
+          "inherits_flags": false
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "ablative": true,
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "500 ml",
+          "max_contains_weight": "400 g",
+          "moves": 250,
+          "description": "Pocket for an ear attachment.",
+          "flag_restriction": [
+            "HELMET_EAR_ATTACHMENT"
+          ],
+          "inherits_flags": true
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "ablative": true,
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "600 ml",
+          "max_contains_weight": "650 g",
+          "moves": 250,
+          "description": "Pocket for a nape protector.",
+          "flag_restriction": [
+            "HELMET_NAPE_PROTECTOR"
+          ]
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "ablative": true,
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "500 ml",
+          "max_contains_weight": "400 g",
+          "moves": 250,
+          "description": "Pocket for a rail-mounted mandible guard.",
+          "flag_restriction": [
+            "HELMET_MANDIBLE_GUARD"
+          ]
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "400 ml",
+          "max_contains_weight": "400 g",
+          "moves": 250,
+          "description": "Pocket for a counterweight pouch.",
+          "flag_restriction": [
+            "HELMET_BACK_POUCH"
+          ]
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "volume_encumber_modifier": 0,
+          "max_contains_volume": "300 ml",
+          "max_contains_weight": "500 g",
+          "max_item_length": "14 cm",
+          "moves": 100,
+          "description": "Pocket for a flashlight attachment.",
+          "flag_restriction": [
+            "HELMET_HEAD_ATTACHMENT"
+          ],
+          "transparent": true
+        }
+      ],
+      "melee_damage": {
+        "bash": 4
+      }
+    },
+    {
+      "id": "sh_nape_plate",
+      "type": "ARMOR",
+      "category": "armor",
+      "name": {
+        "str": "ballistic nape protector"
+      },
+      "description": "A rather substantial soft armour nape pad intended to be attached to the straps of a military helmet to protect your nape against small arms and shrapnel. rather uncomfortable, even when worn properly.",
+      "weight": "250 g",
+      "volume": "500 ml",
+      "price": "300 USD",
+      "price_postapoc": "8 USD",
+      "material": [
+        "nylon",
+        "kevlar_layered"
+      ],
+      "symbol": "[",
+      "color": "dark_gray",
+      "warmth": 12,
+      "flags": [
+        "HELMET_NAPE_PROTECTOR",
+        "CANT_WEAR",
+        "NORMAL"
+      ],
+      "armor": [
+        {
+          "encumbrance": 
+            6,
+          "material": [
+            {
+              "type": "nylon",
+              "covered_by_mat": 100,
+              "thickness": 1.0
+            },
+            {
+              "type": "kevlar_layered",
+              "covered_by_mat": 90,
+              "thickness": 4.4
+            }
+          ],
+          "coverage": 90,
+          "cover_melee": 80,
+          "cover_ranged": 95,
+          "cover_vitals": 100,
+          "covers": [
+            "head"
+          ],
+          "specifically_covers": [
+            "head_nape"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sh_heavy_mandible_guard",
+      "type": "ARMOR",
+      "category": "armor",
+      "name": {
+        "str": "re-fitted ballistic mandible guard", "str_pl": "re-fitted ballistic mandible guards"
+      },
+      "description": "A ballistic jaw guard designed to be attached on a military helmet, but easily adjustable to helmets with any kind of rail system installed. this set has been lovingly refurbished with new kevlar to allow it to once again stop small arms fire",
+      "weight": "250 g",
+      "volume": "250 ml",
+      "price": "60 USD",
+      "price_postapoc":"12 USD",
+      "material": [
+        "thermo_resin", "kevlar_rigid"
+      ],
+      "symbol": "[",
+      "color": "dark_gray",
+      "flags": [
+        "HELMET_MANDIBLE_GUARD",
+        "CANT_WEAR"
+      ],
+      "armor": [
+        {
+          "encumbrance": 8,
+          "coverage": 100,
+          "covers": ["mouth"],
+          "specifically_covers":["mouth_chin", "mouth_cheeks", "mouth_lips" ],
+            "material": [
+            {
+              "type": "thermo_resin",
+              "covered_by_mat": 100,
+              "thickness": 2.0
+            },
+            {"type": "kevlar_rigid",
+              "covered_by_mat": 100,
+              "thickness": 2.2}
+            ]
+        }
+      ]
+    },
+    {
+      "id": "sh_lsleeping_bag",
+      "type": "ARMOR",
+      "name": {
+        "str": "Featherlight sleeping bag"
+      },
+      "description": "An ultralight, yet incredibly warm sleeping bag that covers you head to toe, with a bag that features a large belt clip and strap for convienient carrying.  It is currently unrolled; activate it to roll it up for easy storage.",
+      "weight": "300 g",
+      "volume": "768 ml",
+      "price": "450 USD",
+      "price_postapoc": "15 USD",
+      "material": [
+        "nylon",
+        "lycra",
+        "cotton"
+      ],
+      "symbol": "[",
+      "looks_like": "sleeping_bag",
+      "color": "light_red",
+      "warmth": 80,
+      "material_thickness": 3,
+      "environmental_protection": 3,
+
+      "flags": [
+        "OVERSIZE",
+        "RAINPROOF",
+        "BELT_CLIP",
+        "OUTER"
+      ],
+      "use_action": {
+        "menu_text": "Roll up",
+        "type": "transform",
+        "target": "sh_lsleeping_bag_roll",
+        "msg": "You roll up the sleeping bag, preparing it for transport."
+      },
+      "armor": [
+        {
+          "encumbrance": 72,
+          "coverage": 100,
+          "covers": [
+            "torso",
+            "head",
+            "mouth",
+            "arm_l",
+            "arm_r",
+            "hand_l",
+            "hand_r",
+            "leg_l",
+            "leg_r",
+            "foot_l",
+            "foot_r"
+          ],
+          "material": [
+            {
+              "type": "nylon_quilted",
+              "covered_by_mat": 100,
+              "thickness": 1.0
+            },
+            {
+              "type": "lycra",
+              "covered_by_mat": 100,
+              "thickness": 0.6
+            },
+            {
+              "type": "cotton",
+              "covered_by_mat": 100,
+              "thickness": 1.2
+            }
+            ]
+        }
+        
+      ]
+    },
+    {
+      "id": "sh_lsleeping_bag_roll",
+    "type": "ARMOR",
+    "copy-from": "sleeping_bag",
+    "name": { "str": "rolled Featherlight sleeping bag" },
+    "description": "A large sleeping bag that covers you head to toe, with a strap for carrying it on your back when not in use.  This one is medium weight.  Activate it to unroll it so you can use it for warmth.",
+    "looks_like": "sh_lsleeping_bag",
+    "material_thickness": 4,
+    "warmth": 8,
+    "flags": [ "OVERSIZE", "BELTED", "BELT_CLIP" ],
+    "use_action": { "menu_text": "Unroll", "type": "transform", "target": "sh_lsleeping_bag", "msg": "You unroll the sleeping bag." },
+    "armor": [ { "encumbrance": 4, "coverage": 20, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+    }
+]

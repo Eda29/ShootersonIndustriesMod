@@ -1,0 +1,134 @@
+[
+    {
+        "type": "AMMO",
+        "id": "sh_lnch_grenade",
+        "name": {"str": "launchable grenade & blank"},
+        "description": "A military-grade fragmentary hand grenade, modified with a retaining clip in addition to having a 4 gauge blank shell for use with a grenade discharger.  To throw this item without a discharger, use it to remove the clip and blank and activate the grenade.  You will then have five seconds before it explodes; throwing it would be a good idea.",
+        "weight": "397 g",
+        "volume": "540 ml",
+        "price": "15 USD",
+        "price_postapoc": "10 USD",
+        "to_hit": {
+          "grip": "none",
+          "length": "hand",
+          "surface": "any",
+          "balance": "neutral"
+        },
+        "material": [
+          "steel",
+          "plastic"
+        ],
+        "symbol": "*",
+        "color": "green",
+        "use_action": {
+          "need_wielding": true,
+          "target": "grenade_act",
+          "msg": "You remove the retaining clip on the grenade.",
+          "target_timer": "5 seconds",
+          "active": true,
+          "menu_text": "Activate grenade",
+          "type": "transform"
+        },
+        "flags": [
+          "BOMB",
+          "GRENADE"
+        ],
+        "ammo_type": "4ga_grenadier",
+        "damage": {
+          "damage_type": "bash",
+          "amount": 32
+        },
+        "recoil": 6000,
+        "range": 32,
+        "dispersion": 44,
+        "loudness": 120,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES",
+          "EXPLOSIVE_GRENADE"
+        ],
+        "melee_damage": {
+          "bash": 6
+        }
+      },
+      {
+        "type": "AMMO",
+        "id": "sh_lnch_IC",
+        "name": {"str": "'Dwarf star' incendiary payload & blank"},
+        "description": "A heavy, huge 'grenade' with a impact fuze and a 4 gauge blank shell for use with a grenade discharger. The payload is a GIANT ball of unstable incendiaries of various types that will create a giant crater of high-intensity, blinding flames. It is reccomended to launch this device as far from yourself as possible. ",
+        "weight": "546 g",
+        "volume": "580 ml",
+        "price": "2200 USD",
+        "price_postapoc": "50 USD",
+        "symbol":"*",
+        "to_hit": {
+          "grip": "none",
+          "length": "hand",
+          "surface": "any",
+          "balance": "neutral"
+        },
+        "material": [
+          "steel",
+          "plastic"
+        ],
+        "ammo_type": "4ga_grenadier",
+        "damage": {
+          "damage_type": "bullet",
+          "amount": 32
+        },
+        "recoil": 6000,
+        "range": 36,
+        "dispersion": 44,
+        "loudness": 120,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES",
+          "PYROPHORIC",
+          "FLASHBANG",
+          "TRAIL",
+          "IGNITE",
+          "STREAM_TINY"
+        ],
+        "melee_damage": {
+          "bash": 6
+        },
+        "drop": "grenade_inc_act"
+      },
+      {
+        "type": "AMMO",
+        "id": "sh_lnch_pract",
+        "name": {"str": "launchable practice round & blank"},
+        "description": "A relatively heavy chunk of metal, for use as a practice munition coupled with a 4 gauge blank shell for use with a grenade discharger. You could probably throw this at someone pretty okay too",
+        "weight": "397 g",
+        "volume": "540 ml",
+        "price": "15 USD",
+        "price_postapoc": "10 USD",
+        "to_hit": {
+          "grip": "none",
+          "length": "hand",
+          "surface": "any",
+          "balance": "neutral"
+        },
+        "material": [
+          "steel"
+        ],
+        "symbol": "*",
+        "color": "green",
+        "ammo_type": "4ga_grenadier",
+        "damage": {
+          "damage_type": "bash",
+          "amount": 62
+        },
+        "recoil": 6000,
+        "range": 34,
+        "dispersion": 44,
+        "loudness": 120,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES"
+        ],
+        "melee_damage": {
+          "bash": 6
+        }
+      }
+]

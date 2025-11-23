@@ -1,0 +1,490 @@
+[
+    {
+        "id": "sh_e_tool",
+        "type": "TOOL",
+        "name": {
+          "str": "Harding entrenching tool"
+        },
+        "description": "A stout, collapsible spade.  It's commonly used by military forces and hikers for digging. This one at first glance, appears to be one of those gimmick multi-tool spades that is less functional whilst packing on useless tools, but is actually very well made. Remarkibly sharp, and fitted with sawteeth, a pick head, and a wirecutter without compromising the digging capacity of the spade, you have a feeling you could just as easily fill a grave with it as you would dig one.",
+        "weight": "536 g",
+        "volume": "1 L",
+        "longest_side": "22 cm",
+        "price": "80 USD",
+        "price_postapoc": "22 USD",
+        "material": [
+          "hc_steel",
+          "aluminum"
+        ],
+        "use_action": [
+          "PICKAXE"
+        ],
+        "techniques": [
+            "WBLOCK_1"
+        ],
+        "weapon_category": [
+            "HAND_AXES"
+          ],
+        "symbol": "/",
+        "color": "dark_gray",
+        "qualities": [
+          [
+            "CUT",
+            1
+          ],
+          [
+            "DIG",
+            3
+          ],
+          [
+            "BUTCHER",
+            -4
+          ],
+          [
+            "COOK",
+            1
+          ],
+          [
+            "SAW_M",
+            1
+          ],
+          [
+            "SAW_W",
+            1
+          ],
+          [
+            "AXE",
+            1
+          ],
+          [
+            "HAMMER",
+            1
+          ]
+        ],
+        "flags": [
+          "DURABLE_MELEE",
+          "NEEDS_UNFOLD",
+          "BELT_CLIP",
+          "DIG_TOOL"
+        ],
+        "to_hit": {
+          "grip": "solid",
+          "length": "short",
+          "surface": "line",
+          "balance": "neutral"
+        },
+        "melee_damage": {
+          "bash": 12,
+          "cut": 18
+        }
+      },
+      {
+        "type": "GENERIC",
+        "id": "sh_murderhatchet",
+        "symbol": "/",
+        "color": "dark_gray",
+        "name": {
+          "str": "Mordhau tactical hatchet"
+        },
+        "description": "A quite sturdy looking one-handed hatchet.  Makes a great melee weapon, and is useful both for chopping things and hammering them. This one appears to resemble a 'tactical' hatchet made for seperating wealthy preppers from their money, but is much better built. Features an absolutely wicked edge and a prybar on the other end of the handle for extra utility.",
+        "category": "tools",
+        "price": "110 USD",
+        "price_postapoc": "25 USD",
+        "material": [
+          "qt_steel",
+          "carbonfiber"
+        ],
+        "techniques": [
+          "WBLOCK_1"
+        ],
+        "weight": "912 g",
+        "volume": "1 L",
+        "longest_side": "38 cm",
+        "to_hit": {
+          "grip": "weapon",
+          "length": "short",
+          "surface": "any",
+          "balance": "neutral"
+        },
+        "flags": [
+          "DURABLE_MELEE",
+          "BELT_CLIP",
+          "NONCONDUCTIVE",
+          "SHEATH_AXE"
+        ],
+        "weapon_category": [
+          "HAND_AXES"
+        ],
+        "qualities": [
+          [
+            "AXE",
+            2
+          ],
+          [
+            "CUT",
+            2
+          ],
+          [
+            "HAMMER",
+            2
+          ],
+          [
+            "HAMMER_FINE",
+            1
+          ],
+          [
+            "BUTCHER",
+            18
+          ],
+          [
+            "PRY",
+            2
+          ],
+          [
+            "PRYING_NAIL",
+            1
+          ]
+        ],
+        "melee_damage": {
+          "bash": 12,
+          "cut": 26
+        }
+      },
+      {
+        "id": "sh_knife_KABAR2",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": {
+          "str": "Wz. 203 knife",
+          "str_pl": "Wz. 203 knives"
+        },
+        "description": "The Wz. 203 is a rather substantial knife designed by a Polish Subisdiary of Shooterson Industries created by modifying the KA-BAR designs to be even more soldier-proof. The handle is made of ergonomically moulded carbon fiber, and the blade is made of easy to sharpen, yet very retentive tempered steel alloy. Making for a quite efficient fighting, hunting and utility knife. The blade also has some sawteeth at the back for additional utility, and the pommel is substantial enough to strike with.",
+        "weight": "332 g",
+        "volume": "262 ml",
+        "longest_side": "32 cm",
+        "price": "120 USD",
+        "price_postapoc": "34 USD",
+        "to_hit": {
+          "grip": "weapon",
+          "length": "hand",
+          "surface": "line",
+          "balance": "good"
+        },
+        "material": [
+          "qt_steel",
+          "carbonfiber"
+        ],
+        "repairs_with": [
+          "steel"
+        ],
+        "looks_like": "knife_combat",
+        "symbol": "/",
+        "color": "dark_gray",
+        "qualities": [
+          [
+            "CUT",
+            2
+          ],
+          [
+            "CUT_FINE",
+            1
+          ],
+          [
+            "BUTCHER",
+            32
+          ],
+          [
+            "SAW_M", 
+            1
+          ],
+          [
+            "SAW_W",
+            1
+          ]
+        ],
+        "flags": [
+          "SHEATH_KNIFE",
+          "ALLOWS_BODY_BLOCK",
+          "CONDUCTIVE",
+          "DURABLE_MELEE"
+        ],
+        "weapon_category": [
+          "KNIVES"
+        ],
+        "melee_damage": {
+          "stab": 26,
+          "bash": 3
+        }
+      },
+      {
+        "id": "sh_machete_qt",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": { "str": "tempered steel combat machete" },
+        "description": "This once rather innocent gardening tool has had careful engineering considerations and modifications made to its design to dramatically improve its performance as a weapon. Wicked sharp, and nearly unbreakable, this feels more akin to a purpose made weapon of war than a machete",
+        "weight": "800 g",
+        "volume": "788 ml",
+        "longest_side": "64 cm",
+        "symbol": "/",
+        "color": "dark_gray",
+        "price": "42 USD",
+        "price_postapoc": "25 USD",
+        "to_hit": {
+          "grip": "weapon",
+          "length": "short",
+          "surface": "line",
+          "balance": "good"
+        },
+        "material": [
+          {
+            "type": "kevlar_rigid",
+            "portion": 0.85
+          },
+          {
+            "type": "qt_steel",
+            "portion": 80
+          }
+        ],
+        "techniques": [
+          "WBLOCK_2",
+          "RAPID",
+          "SWEEP"
+        ],
+        "qualities": [
+          [
+            "CUT",
+            2
+          ],
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "BUTCHER",
+            16
+          ]
+        ],
+        "flags": [
+          "DURABLE_MELEE",
+          "NONCONDUCTIVE",
+          "SHEATH_SWORD"
+        ],
+        "weapon_category": [
+          "SHORT_SWORDS"
+        ],
+        "melee_damage": {
+          "cut": 32,
+          "bash": 3
+        }
+      },
+      {
+        "id": "sh_machete_taiga",
+        "name": {
+          "str": "Boreal Machete"
+        },
+        "type": "TOOL",
+        "description": "A re-imagining classic Russian rescue machete that is oftentimes marketed as and erroneously called a 'Spetsnaz machete', this hefty beast of a short, more hatchet like blade has more integrated tools than one can shake a stick at.  More of a Jack-of-all-trades than any of that cheap mall-ninja crap. As with all Shooterson Industries products, this one has a unique trait, specifically, it features a set of mounting points for use as a bayonet, and it seems to be compatible with just about any rifle with a lug.",
+        "longest_side": "36 cm",
+        "symbol": "/",
+        "color": "green",
+        "weight": "700 g",
+        "volume": "330 ml",
+        "price": "2300 USD",
+        "techniques": ["WBLOCK_1"],
+        "looks_like":"machete",
+        "price_postapoc": "68 USD",
+        "to_hit": {
+          "grip": "weapon",
+          "length": "short",
+          "surface": "any",
+          "balance": "good"
+        },
+        "material": [
+          "qt_steel"
+        ],
+        "qualities": [
+          [
+            "CUT",
+            2
+          ],
+          [
+            "AXE",
+            1
+          ],
+          [
+            "HAMMER",
+            1
+          ],
+          [
+            "BUTCHER",
+            16
+          ],
+          [
+            "SAW_W",
+            1
+          ],
+          [
+            "SAW_M",
+            1
+          ],
+          [
+            "DIG",
+            1
+          ],
+          [
+            "PRY",
+            1
+          ]
+        ],
+        "flags": [
+          "SHEATH_KNIFE",
+          "DURABLE_MELEE"
+        ],
+        "weapon_category": [
+          "SHORT_SWORDS",
+          "HAND_AXES"
+        ],
+        "melee_damage": {
+          "cut": 21,
+          "bash": 9
+        },
+        "pocket_data": [
+          {
+            "pocket_type": "CONTAINER",
+            "rigid": true,
+            "watertight": true,
+            "max_contains_volume": "75 ml",
+            "max_contains_weight": "500 g",
+            "moves": 330,
+            "description": "A compartment in the handle."
+          }
+        ],
+        "gunmod_data": {
+          "location": "bayonet lug",
+          "mod_targets": [
+            "pistol",
+            "smg",
+            "rifle",
+            "shotgun",
+            "launcher",
+            "crossbow"
+          ],
+          "is_bayonet": true,
+          "blacklist_mod": [
+            "crafted_suppressor",
+            "filter_suppressor",
+            "shot_suppressor",
+            "suppressor",
+            "suppressor_compact",
+            "m203",
+            "m203_mod",
+            "m320_mod_mod",
+            "m320_mod",
+            "M6_shotgun",
+            "makeshift_bayonet",
+            "m26_mass",
+            "m26_mass_mod",
+            "masterkey",
+            "masterkey_mod",
+            "u_shotgun",
+            "u_shotgun_mod"
+          ],
+          "install_time": "5 s"
+        },
+        "min_skills": [
+          [
+            "weapon",
+            2
+          ],
+          [
+            "melee",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sh_dreihander",
+        "type": "TOOL",
+        "category": "weapons",
+        "name": {
+          "str": "giant, ornate flamberge"
+        },
+        "description": "An absolutely gigantic, flame-bladed greatsword that is somewhere between a montante, spadone, and zweihänder in design. This exceedingly flamboyant (in more ways than one) sword is fantasically durable in spite of its embelishments. If you're up to the task of swinging it and not hitting a wall or tree, it'll pack a serious punch.\n\n Masterfully crafted, and meticulously honed to a hair-whittling edge, this blade is the true pinnacle of the bladesmith's craft. Its perfect, undulating blade is mesmerising to look at, and you could almost get lost in its ruby-red gem.",
+        "weight": "4578 g",
+        "volume": "4125 ml",
+        "longest_side": "282 cm",
+        "symbol": "/",
+        "color": "light_gray",
+        "looks_like": "zweihander",
+        "price": "11 kUSD 600 USD",
+        "price_postapoc": "500 USD",
+        "material": [
+          {
+            "type": "kevlar_rigid",
+            "portion": 1.5
+          },
+          {
+            "type": "qt_steel",
+            "portion": 180
+          },
+          {
+            "type": "gold",
+            "portion": 1.25
+          },
+          {
+            "type": "gemstone",
+            "portion": 0.5
+          }
+        ],
+        "repairs_with": [
+          "mc_steel"
+        ],
+        "flags": [
+          "DURABLE_MELEE",
+          "POLEARM",
+          "CONDUCTIVE",
+          "SHEATH_SWORD",
+          "REACH_ATTACK",
+          "REACH3"
+        ],
+        "techniques": [
+          "WBLOCK_2",
+          "WIDE",
+          "BRUTAL",
+          "IMPALE",
+          "SWEEP",
+          "SPIN"
+        ],
+        "to_hit": {
+          "grip": "weapon",
+          "length": "long",
+          "surface": "any",
+          "balance": "good"
+        },
+        "qualities": [
+          [
+            "CUT",
+            2
+          ],
+          [
+            "BUTCHER",
+            -18
+          ],
+          [
+            "AXE",
+            1
+          ],
+          [
+            "GRASS_CUT",
+            1
+          ]
+        ],
+        "weapon_category": [
+          "LONG_THRUSTING_SWORDS",
+          "GREAT_SWORDS"
+        ],
+        "melee_damage": {
+          "bash": 16,
+          "cut": 56
+        }
+      }
+]

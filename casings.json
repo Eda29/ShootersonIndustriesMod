@@ -1,0 +1,59 @@
+[
+    
+        {
+        "id": "sh_4ga_shot_hull",
+        "type": "GENERIC",
+        "category": "spare_parts",
+        "name": {
+          "str": "4 gauge hull"
+        },
+        "description": "An empty hull from a huge 4 gauge shotgun shell. these are quite rare, so you may want to hold onto them.",
+        "weight": "26 g",
+        "volume": "42ml",
+        "stackable": true,
+        "material": [
+            "plastic", "brass"
+        ],
+        "symbol": "=",
+        "color": "red"
+        },
+        {
+          "type": "GENERIC",
+          "category": "spare_parts",
+          "name": {
+            "str": ".460 Rowland casing"
+          },
+          "stackable": true,
+          "material": [
+            "brass"
+          ],
+          "symbol": "=",
+          "color": "yellow",
+          "id": "460row_casing",
+          "copy-from": "casing",
+          "looks_like": "9mm_casing",
+          "description": "An empty casing from a .460 Rowland round.  It looks deceptively like a .45 ACP casing.",
+          "weight": "4 g",
+          "volume": "6ml"
+        },
+        {
+          "type": "GENERIC",
+          "category": "spare_parts",
+          "name": {
+            "str": "Blown out .460 casing"
+          },
+          "stackable": true,
+          "material": [
+            "brass"
+          ],
+          "symbol": "=",
+          "color": "yellow",
+          "id": "sh_460sib_casing",
+          "copy-from": "casing",
+          "looks_like": "9mm_casing",
+          "description": "A cracked empty casing from a .460 Rowland round.  It looked deceptively like a .45 ACP casing. Unfortunately, the pressures this round has undergone has damaged it beyond reuse.",
+          "weight": "4 g",
+          "volume": "6ml"
+        }
+
+]

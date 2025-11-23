@@ -1,0 +1,104 @@
+[
+    {
+        "id": "sh_usp460mag",
+        "looks_like": "glock17_17",
+        "type": "MAGAZINE",
+        "name": {
+          "str": "USP .460 14-round magazine"
+        },
+         "description": "A not quite standared capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Though it has a slight increase in capacity over regular USP 45 magazines, due to differing internal geometry allowed by the new material and optimizations of the spring, it isn't any bigger. in fact, it is even marginally slimmer than normal.",
+        "weight": "105 g",
+        "volume": "98 ml",
+        "longest_side": "127 mm",
+        "price": "60 USD",
+        "price_postapoc": "3 USD",
+        "material": [
+          "steel"
+        ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [
+          "460row"
+        ],
+        "flags": [
+          "MAG_COMPACT"
+        ],
+        "pocket_data": [
+          {
+            "pocket_type": "MAGAZINE",
+            "rigid": true,
+            "ammo_restriction": {
+              "460row": 14
+            }
+          }
+        ]
+      },
+      {
+        "id": "sh_usp460bigmag",
+        "looks_like": "glock17_17",
+        "type": "MAGAZINE",
+        "name": {
+          "str": "USP .460 21-round magazine"
+        },
+         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Due to differing internal geometry allowed by the new material and optimizations of the spring, it is marginally slimmer than a comparible USP magazine of the same size.",
+        "weight": "167 g",
+        "volume": "142 ml",
+        "longest_side": "196 mm",
+        "price": "80 USD",
+        "price_postapoc": "5 USD",
+        "material": [
+          "steel"
+        ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [
+          "460row"
+        ],
+        "flags": [
+          "MAG_COMPACT"
+        ],
+        "pocket_data": [
+          {
+            "pocket_type": "MAGAZINE",
+            "rigid": true,
+            "ammo_restriction": {
+              "460row": 21
+            }
+          }
+        ] 
+      },
+      {
+        "id": "sh_usp460bigbigmag",
+        "looks_like": "glock17_17",
+        "type": "MAGAZINE",
+        "name": {
+          "str": "USP .460 28-round magazine"
+        },
+         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Due to differing internal geometry allowed by the new material and optimizations of the spring, it is marginally slimmer than a comparible USP magazine of the same size. Strangely, all of the magazines you've found for this pistol have been multiples of 7.",
+        "weight": "195 g",
+        "volume": "176 ml",
+        "longest_side": "213 mm",
+        "price": "120 USD",
+        "price_postapoc": "7 USD",
+        "material": [
+          "steel"
+        ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [
+          "460row"
+        ],
+        "flags": [
+          "MAG_COMPACT"
+        ],
+        "pocket_data": [
+          {
+            "pocket_type": "MAGAZINE",
+            "rigid": true,
+            "ammo_restriction": {
+              "460row": 28
+            }
+          }
+        ] 
+      }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "abstract": "sh_4ga_shotshell_abstract",
+        "type": "AMMO",
+        "name": { "str": "base shotshell"},
+        "weight": "203 g",
+        "volume": "300 ml",
+        "longest_side": "122 mm",
+        "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+        "material": [ "brass", "plastic", "lead", "powder" ],
+        "symbol": "=",
+        "color": "red",
+        "count": 20,
+        "stack_size": 20,
+        "ammo_type": "4ga_shot",
+        "casing": "sh_4ga_shot_hull"
+    },
+    {
+      "id": "sh_shot_4ga",
+      "copy-from": "sh_4ga_shotshell_abstract",
+      "type": "AMMO",
+      "name": { "str_sp": "4 gauge buckshot" },
+      "description": "A huge shell filled with metal pellets. Exceedingly damaging and destructive, plus the spread makes it very accurate at short range. Due to its incredibly high power and volume of shot, it can easily shred through 'obstacles'.",
+      "ascii_picture": "shot_00",
+      "price": "20 USD",
+      "price_postapoc": "12 USD",
+      "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+      "range": 26,
+      "damage": { "damage_type": "bullet", "amount": 135, "armor_penetration": 4.5 },
+      "shot_damage": { "damage_type": "bullet", "amount": 26 },
+      "projectile_count": 32,
+      "shot_spread": 280,
+      "recoil": 27050,
+      "loudness": 360,
+      "effects": [ "COOKOFF", "SHOT" ]
+    },
+    {
+        "id": "sh_flechette_4ga",
+        "copy-from": "sh_shot_4ga",
+        "type": "AMMO",
+        "name": { "str": "4 Gauge flechette shell" },
+        "description": "A huge shotgun shell filled with tiny steel darts. The spread makes it very accurate at short range. Its higher pressures and shot volumes leads to it doing its intended job of shredding light armour much better.",
+        "ascii_picture": "shot_flechette",
+        "price": "26 USD",
+        "price_postapoc": "14 USD",
+        "count": 10,
+        "relative": { "shot_damage": { "damage_type": "bullet", "amount": -3 }, "shot_spread": -130, "projectile_count" : -6, "range": 8, "armor_penetration": 6.5 }
+      },
+      {
+        "type": "AMMO",
+        "name": { "str": "4 gauge shotgun slug" },
+        "id": "sh_slug_4ga",
+        "copy-from":"sh_4ga_shotshell_abstract",
+        "description": "A giant, heavy metal slug used to give a shotgun the range capabilities of a rifle. Extremely damaging but rather inaccurate. You have a feeling a slug this size may just pop your shoulder out of its socket.",
+        "ascii_picture": "shot_slug",
+        "price": "28 USD",
+        "price_postapoc": "16 USD",
+        "weight":"166 g",
+        "range": 38,
+        "dispersion": 180,
+        "damage": { "damage_type": "bullet", "amount": 132, "armor_penetration": 8 },
+        "recoil": 32500,
+        "effects": ["COOKOFF"]
+      },
+      {
+        "id": "sh_birdshot_4ga",
+        "copy-from": "sh_4ga_shotshell_abstract",
+        "type": "AMMO",
+        "name": { "str_sp": "4 gauge birdshot" },
+        "description": "A huge shell filled with tiny little metal pellets meant for obliterating birds and small game. The huge volume of this shell means that it is unintentionally quite destructive against most anything you point it at, even birds. Its giant, bird destroying nature could probably give the punt guns of old a run for their money. You're pretty sure it actually has way less projectiles than it should, and instead, for the purpose of not breaking your oh-so fragile little existence, it has much higher damage per pellet.",
+        "ascii_picture": "shot_bird",
+        "price": "20 USD",
+        "price_postapoc": "12 USD",
+        "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+        "range": 26,
+        "damage": { "damage_type": "bullet", "amount": 110},
+        "shot_damage": { "damage_type": "bullet", "amount": 3 },
+        "projectile_count": 256,
+        "shot_spread": 320,
+        "recoil": 17400,
+        "effects": [ "COOKOFF"]
+      },
+      {
+        "id": "sh_slug_4ga_ap",
+        "type" : "AMMO",
+        "name" : "4 gauge armour-piercing slug",
+        "price": "46 USD",
+        "price_postapoc":"18 USD",
+        "description" : "A giant, heavy metal slug based on the 'Barrikada' AP slugs for the KS-23, only scaled up to american spec 4 gauge and given some 'modernizations' by Shooterson Industries. Where its predicessor may have been able to take out concrete walls and engine blocks, you have a feeling this slug will somehow find its way through the armour of an Iowa-class battleship and out the other side. You have a suspicion a slug this size will pop your shoulder out of its socket.",
+        "copy-from" :"sh_slug_4ga",
+        "relative": { "damage": { "damage_type":"bullet" , "amount": -12, "armor_penetration": 52}},
+        "proportional": { "recoil": 1.25 }
+      },
+      {
+        "type": "AMMO",
+        "name": { "str": "4 gauge shotgun blank" },
+        "id": "sh_blank_4ga",
+        "copy-from":"sh_4ga_shotshell_abstract",
+        "description": "A giant, hefty 4 gauge blank. Though it lacks a projectile, it could still deal some damage if you pressed the muzzle up against somone. Intended for grenade discharger cups and not for use on its own.",
+        "ascii_picture": "shot_slug",
+        "price": "18 USD",
+        "price_postapoc": "10 USD",
+        "range": 1,
+        "dispersion": 0,
+        "damage": { "damage_type": "bash", "amount": 80, "armor_penetration": 0 },
+        "recoil": 7600,
+        "effects": ["COOKOFF"]
+      },
+      {
+        "id":"sh_slugfrag_4ga",
+        "type" : "AMMO",
+        "name" : "4 gauge Frag-Nado",
+        "price": "80 USD",
+        "price_postapoc":"26 USD",
+        "color": "blue",
+        "description" : "A giant, heavy slug consistent of several hard steel rods and a steel core in an aluminum base with lead cast around it all. Creates absolutely DEVASTATING wound channels, and being half steel means it can pierce armour to boot. You have a suspicion a slug this size will pop your shoulder out of its socket. On the side of the shell, it is printed in small text 'TFM approved'. ",
+        "copy-from" :"sh_slug_4ga",
+        "relative": { "damage": { "damage_type":"bullet" , "amount": 56, "armor_penetration": 24}},
+        "proportional": { "recoil": 1.1 }
+      },
+      {
+        "type": "AMMO",
+        "name": {
+          "str_sp": "4 gauge teargas"
+        },
+        "copy-from": "sh_4ga_shotshell_abstract",
+        "price": "100 USD",
+        "price_postapoc": "60 USD",
+        "flags": [
+          "IRREPLACEABLE_CONSUMABLE"
+        ],
+        "material": [
+          "steel",
+          "powder"
+        ],
+        "color": "green",
+        "ammo_type": "4ga_shot",
+        "range": 34,
+        "dispersion": 30,
+        "recoil": 9700,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES"
+        ],
+        "id": "sh_gasbomb_4ga",
+        "description": "A a rather substantial 4 gauge tear gas payload loosely based off of the 'Cheremukha-7'.  It is effective for riot control and driving infantry from entrenched positions, and is able to penetrate thin sheet steel. The lower pressure loading needed means that it packs less punch than it typically would.",
+        "damage": {
+          "damage_type": "bullet",
+          "amount": 26,
+          "armor_penetration": 4.5
+        },
+        "drop": "gasbomb_act"
+      }    
+]

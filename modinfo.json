@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Shooterson_Industries",
+    "name": "Shooterson Hardware",
+    "authors": ["Shooterson-software", "EdaSoft L.L.C"],
+    "description" : "Adds quite a few items themed after a fictional company founded by a certain man in Russia (not-so) long ago. Also adds some items that I personally want in. Explicitely not required to mesh with base-game lore.", 
+    "version": "alpha 3.3",
+    "dependencies": [ "dda" ],
+    "category": "items"
+  }
+]
