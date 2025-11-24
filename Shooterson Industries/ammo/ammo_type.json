@@ -1,0 +1,20 @@
+[
+    {
+    "type": "ammunition_type",
+    "id": "4ga_shot",
+    "name": "4 gauge shot",
+    "default": "sh_shot_4ga"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "4ga_grenadier",
+    "name": "4 gauge grenade discharger",
+    "default": "sh_lnch_grenade"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "460row",
+    "name": ".460 Rowland",
+    "default": "sh_460_rowland"
+  }
+]

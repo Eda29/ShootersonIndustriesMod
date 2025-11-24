@@ -1,0 +1,337 @@
+[
+    {
+        "id": "sh_50ru",
+        "type": "ITEM",
+        "subtypes": [
+          "AMMO"
+        ],
+        "name": {
+          "str": ".500 Raging Bear"
+        },
+        "description": "Essentially a +P+ .50 Beowulf round, the .500 Raging Bear is what happens when a wild Russian obsessed with making overpressure ammunition finds a .50 Beowulf round. Featuring a tungsten-cored 520-grain ballistic tip bullet, this massive, significantly too powerful round will turn just about anything into a fine paste.",
+        "weight": "46 g",
+        "volume": "231 ml",
+        "longest_side": "54 mm",
+        "price": "8 USD 39 cent",
+        "price_postapoc": "11 USD 75 cent",
+        "flags": [
+          "IRREPLACEABLE_CONSUMABLE"
+        ],
+        "material": [
+          "brass",
+          "lead",
+          "powder"
+        ],
+        "symbol": "=",
+        "color": "yellow",
+        "count": 20,
+        "stack_size": 20,
+        "ammo_type": "50beowulf",
+        "casing": "50beowulf_casing",
+        "range": 32,
+        "damage": {
+          "damage_type": "bullet",
+          "amount": 78,
+          "armor_penetration": 15,
+          "barrels": [
+            {
+              "barrel_length": "26 mm",
+              "amount": 32
+            },
+            {
+              "barrel_length": "27 mm",
+              "amount": 34
+            },
+            {
+              "barrel_length": "29 mm",
+              "amount": 35
+            },
+            {
+              "barrel_length": "31 mm",
+              "amount": 36
+            },
+            {
+              "barrel_length": "33 mm",
+              "amount": 36
+            },
+            {
+              "barrel_length": "35 mm",
+              "amount": 37
+            },
+            {
+              "barrel_length": "37 mm",
+              "amount": 38
+            },
+            {
+              "barrel_length": "38 mm",
+              "amount": 39
+            },
+            {
+              "barrel_length": "40 mm",
+              "amount": 39
+            },
+            {
+              "barrel_length": "42 mm",
+              "amount": 40
+            },
+            {
+              "barrel_length": "45 mm",
+              "amount": 41
+            },
+            {
+              "barrel_length": "48 mm",
+              "amount": 43
+            },
+            {
+              "barrel_length": "50 mm",
+              "amount": 44
+            },
+            {
+              "barrel_length": "53 mm",
+              "amount": 45
+            },
+            {
+              "barrel_length": "55 mm",
+              "amount": 45
+            },
+            {
+              "barrel_length": "58 mm",
+              "amount": 46
+            },
+            {
+              "barrel_length": "61 mm",
+              "amount": 47
+            },
+            {
+              "barrel_length": "64 mm",
+              "amount": 48
+            },
+            {
+              "barrel_length": "67 mm",
+              "amount": 48
+            },
+            {
+              "barrel_length": "72 mm",
+              "amount": 49
+            },
+            {
+              "barrel_length": "76 mm",
+              "amount": 50
+            },
+            {
+              "barrel_length": "79 mm",
+              "amount": 50
+            },
+            {
+              "barrel_length": "83 mm",
+              "amount": 51
+            },
+            {
+              "barrel_length": "87 mm",
+              "amount": 52
+            },
+            {
+              "barrel_length": "92 mm",
+              "amount": 53
+            },
+            {
+              "barrel_length": "96 mm",
+              "amount": 54
+            },
+            {
+              "barrel_length": "101 mm",
+              "amount": 55
+            },
+            {
+              "barrel_length": "109 mm",
+              "amount": 56
+            },
+            {
+              "barrel_length": "114 mm",
+              "amount": 57
+            },
+            {
+              "barrel_length": "120 mm",
+              "amount": 58
+            },
+            {
+              "barrel_length": "126 mm",
+              "amount": 59
+            },
+            {
+              "barrel_length": "133 mm",
+              "amount": 60
+            },
+            {
+              "barrel_length": "140 mm",
+              "amount": 61
+            },
+            {
+              "barrel_length": "147 mm",
+              "amount": 62
+            },
+            {
+              "barrel_length": "160 mm",
+              "amount": 63
+            },
+            {
+              "barrel_length": "168 mm",
+              "amount": 64
+            },
+            {
+              "barrel_length": "178 mm",
+              "amount": 65
+            },
+            {
+              "barrel_length": "188 mm",
+              "amount": 66
+            },
+            {
+              "barrel_length": "199 mm",
+              "amount": 67
+            },
+            {
+              "barrel_length": "210 mm",
+              "amount": 68
+            },
+            {
+              "barrel_length": "223 mm",
+              "amount": 69
+            },
+            {
+              "barrel_length": "236 mm",
+              "amount": 70
+            },
+            {
+              "barrel_length": "258 mm",
+              "amount": 71
+            },
+            {
+              "barrel_length": "274 mm",
+              "amount": 72
+            },
+            {
+              "barrel_length": "292 mm",
+              "amount": 73
+            },
+            {
+              "barrel_length": "311 mm",
+              "amount": 74
+            },
+            {
+              "barrel_length": "332 mm",
+              "amount": 75
+            },
+            {
+              "barrel_length": "343 mm",
+              "amount": 76
+            },
+            {
+              "barrel_length": "367 mm",
+              "amount": 77
+            },
+            {
+              "barrel_length": "416 mm",
+              "amount": 78
+            },
+            {
+              "barrel_length": "440 mm",
+              "amount": 79
+            },
+            {
+              "barrel_length": "489 mm",
+              "amount": 80
+            },
+            {
+              "barrel_length": "513 mm",
+              "amount": 81
+            },
+            {
+              "barrel_length": "562 mm",
+              "amount": 82
+            },
+            {
+              "barrel_length": "611 mm",
+              "amount": 83
+            },
+            {
+              "barrel_length": "684 mm",
+              "amount": 84
+            },
+            {
+              "barrel_length": "732 mm",
+              "amount": 85
+            },
+            {
+              "barrel_length": "830 mm",
+              "amount": 86
+            },
+            {
+              "barrel_length": "903 mm",
+              "amount": 87
+            },
+            {
+              "barrel_length": "1000 mm",
+              "amount": 88
+            },
+            {
+              "barrel_length": "1097 mm",
+              "amount": 89
+            },
+            {
+              "barrel_length": "1218 mm",
+              "amount": 90
+            }
+          ],
+          "armor_multiplier": 1,
+          "damage_multiplier": 1,
+          "constant_armor_multiplier": 1,
+          "constant_damage_multiplier": 1
+        },
+        "dispersion": 18,
+        "recoil": 6855,
+        "effects": [
+          "COOKOFF",
+          "NEVER_MISFIRES"
+        ]
+    },
+    {
+        "id": "sh_50ru_ap",
+        "type": "ITEM",
+        "subtypes": [
+          "AMMO"
+        ],
+        "name": {
+          "str": ".500 Raging Bear SAP"
+        },
+        "description": "Essentially a +P+ .50 Beowulf round, the .500 Raging Bear is what happens when you decide to no longer have shoulders any longer. Featuring a carbide-cored 480-grain Semi-Armour piercing bullet, this round will make the distinction between cover and concealment very blurred. As the name implies, the bullet contains a small amount of high-explosive.",
+        "weight": "46 g",
+        "volume": "231 ml",
+        "longest_side": "54 mm",
+        "price": "22 USD 39 cent",
+        "price_postapoc": "15 USD 75 cent",
+        "copy-from": "sh_50ru",
+        "effects": [ "EXPLOSIVE_RAUFOSS" ],
+        "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": 26 } }
+    },
+    {
+      "id": "sh_50ru_duslap",
+        "type": "ITEM",
+        "subtypes": [
+          "AMMO"
+        ],
+      "name": {
+        "str": ".500 Raging Bear 'Silver Riptide'"
+      },
+      "description": "Essentially a +P+ .50 Beowulf round, the .500 Raging Bear is what happens when you decide to no longer have shoulders any longer. Featuring a Depleted-Uranium-cored 520-grain Saboted AP bullet, this round will make the distinction between cover and concealment non-existant. Due to its uranium-cored nature, this round is highly pyrophoric and will ignite on impact.",
+      "weight": "47 g",
+      "volume": "231 ml",
+      "longest_side": "54 mm",
+      "price": "72 USD 60 cent",
+      "price_postapoc": "27 USD",
+      "copy-from": "sh_50ru",
+      "effects": [ "INCENDIARY"],
+      "relative": { "damage": { "damage_type": "bullet", "amount": -6, "armor_penetration": 46 }, "dispersion": 11},
+      "proportional": { "recoil": 1.1 }
+    }
+]

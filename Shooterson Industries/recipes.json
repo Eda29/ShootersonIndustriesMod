@@ -1,0 +1,161 @@
+[
+    {
+        "result": "sh_bodymesh_open",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 7,
+        "time": "8 h",
+        "book_learn": [
+          [
+            "sh_bp_bodyglove",
+            4
+          ]
+        ],
+        "using": [
+          [ "fastener_large", 2],
+          ["tailoring_lycra_patchwork", 4 ],
+          ["tailoring_nomex_patchwork", 6 ],
+          ["tailoring_neoprene_patchwork", 6 ]
+        ],
+        "qualities": [
+          {
+            "id": "LEATHER_AWL",
+            "level": 1
+          },
+          {
+             "id": "FABRIC_CUT",
+             "level": 2
+          }
+        ],
+        "proficiencies": [
+          { "proficiency": "prof_closures" },
+          { "proficiency": "prof_elastics" },
+          { "proficiency": "prof_polymerworking" },
+          { "proficiency": "prof_closures_waterproofing" }
+        ],
+        "components": [
+          [ [ "chunk_rubber", 2 ] ],
+          [ [ "thread_kevlar", 42 ] ],
+          [ [ "kevlar_patch", 2 ] ],
+          [ [ "glue_weak",500 ] ]
+        ],
+        "flags": [
+          "SECRET"
+        ],
+        "byproducts": [
+          [ "scrap_nomex", 5 ],
+          [ "scrap_lycra", 7 ],
+          [ "scrap_neoprene", 8 ]
+        ]
+      },
+      {
+        "result": "sh_thigh_plates",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_LEGS",
+  "skill_used": "tailor",
+  "difficulty": 6,
+  "time": "16 h",
+  "reversible": true,
+  "decomp_learn": 5,
+  "autolearn": true,
+  "qualities": [
+    { "id": "SEW", "level": 2}
+  ],
+  "using": [
+    [ "armor_kevlar_layered", 2 ],
+    [ "tailoring_nylon_patchwork", 6 ],
+    [ "strap_small", 6 ],
+    [ "clasps", 3 ]
+  ],
+  "proficiencies": [
+    { "proficiency": "prof_polymerworking", "required": false }
+  ]
+      },
+      {
+        "result": "sh_reloaded_460_fmj",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_AMMO",
+        "subcategory": "CSC_AMMO_PISTOL",
+        "skill_used": "fabrication",
+        "difficulty": 5,
+        "skills_required": [ "gun", 4 ],
+        "time": "2 m",
+        "batch_time_factors": [ 60, 5 ],
+        "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_pistol", 4 ] ],
+        "charges": 1,
+        "reversible": true,
+        "using": [ [ "bullet_forming", 3 ], [ "ammo_bullet", 3 ] ],
+        "proficiencies": [ { "proficiency": "prof_handloading" } ],
+        "components": [
+          [ [ "460row_casing", 1 ] ],
+          [ [ "lgpistol_primer", 1 ] ],
+          [ [ "gunpowder_rifle", 8 ], [ "gunpowder_magnum_pistol", 8 ] ],
+          [ [ "copper", 2 ] ]
+        ]
+      },
+      {
+        "result": "sh_reloaded_460_rowland",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_AMMO",
+        "subcategory": "CSC_AMMO_PISTOL",
+        "skill_used": "fabrication",
+        "difficulty": 4,
+        "skills_required": [ "gun", 3 ],
+        "time": "2 m",
+        "batch_time_factors": [ 60, 5 ],
+        "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_pistol", 4 ] ],
+        "charges": 1,
+        "reversible": true,
+        "using": [ [ "bullet_forming", 3 ], [ "ammo_bullet", 3 ] ],
+        "proficiencies": [ { "proficiency": "prof_handloading" } ],
+        "components": [
+          [ [ "460row_casing", 1 ] ],
+          [ [ "lgpistol_primer", 1 ] ],
+          [ [ "gunpowder_rifle", 8 ], [ "gunpowder_magnum_pistol", 8 ] ],
+          [ [ "copper", 2 ] ]
+        ]
+      },
+      {
+        "result": "sh_bp_460_fmj",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_AMMO",
+        "subcategory": "CSC_AMMO_PISTOL",
+        "skill_used": "fabrication",
+        "difficulty": 5,
+        "skills_required": [ "gun", 4 ],
+        "time": "2 m",
+        "batch_time_factors": [ 60, 5 ],
+        "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_pistol", 4 ] ],
+        "charges": 1,
+        "reversible": true,
+        "using": [ [ "bullet_forming", 3 ], [ "ammo_bullet", 3 ] ],
+        "proficiencies": [ { "proficiency": "prof_handloading" } ],
+        "components": [ [ [ "460row_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ], [ [ "chem_black_powder", 8 ] ], [ [ "copper", 2 ] ] ]
+      },
+      {
+        "result": "sh_bp_460_rowland",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_AMMO",
+        "subcategory": "CSC_AMMO_PISTOL",
+        "skill_used": "fabrication",
+        "difficulty": 4,
+        "skills_required": [ "gun", 3 ],
+        "time": "2 m",
+        "batch_time_factors": [ 60, 5 ],
+        "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_pistol", 4 ] ],
+        "charges": 1,
+        "reversible": true,
+        "using": [ [ "bullet_forming", 3 ], [ "ammo_bullet", 3 ] ],
+        "proficiencies": [ { "proficiency": "prof_handloading" } ],
+        "components": [ [ [ "460row_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ], [ [ "chem_black_powder", 8 ] ], [ [ "copper", 2 ] ] ]
+      }
+]

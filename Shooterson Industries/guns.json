@@ -1,0 +1,351 @@
+[
+    {
+        "type": "GUN",
+        "reload_noise_volume": 8,
+        "handling": 12,
+        "symbol": "(",
+        "color": "dark_gray",
+        "faults": [
+          "fault_gun_blackpowder",
+          "fault_gun_dirt",
+          "fault_gun_chamber_spent",
+          "fault_fail_to_feed",
+          "fault_stovepipe",
+          "fault_double_feed"
+        ],
+        "ranged_damage": {
+          "damage_type": "bullet",
+          "amount": 0
+        },
+        "skill": "pistol",
+        "sight_dispersion": 55,
+        "valid_mod_locations": [
+          [
+            "barrel",
+            1
+          ],
+          [
+            "brass catcher",
+            1
+          ],
+          [
+            "mechanism",
+            3
+          ],
+          [
+            "magazine",
+            1
+          ],
+          [
+            "muzzle",
+            1
+          ],
+          [
+            "rail",
+            2
+          ],
+          [
+            "sights",
+            1
+          ],
+          [
+            "stock",
+            1
+          ],
+          [
+            "underbarrel",
+            1
+          ]
+        ],
+        "id": "sh_usp_460",
+        "looks_like": "usp_45",
+        "name": {"str": "SI USP 460 Mk. IV pistol"},
+        "description": "Ah the venerable H&K USP pistol, or at least, a very good clone of one. Having served many years in both law enforcement and in militaries alike, it was the obvious choice for being picked up and 'refined' by Shooterson Industries. A scosh larger, fitted with a 180mm barrel, and an extended slide to match, this little old number is seemingly unremarkible. Aside from the fact that it has been tuned, accurized, and rebalanced to hell and back, of course. Rechambered and re-engineered to fire the monstrous .460 Siberian Express, you're pretty sure you could take on a battalion of nuclear-powered supertanks. As the markings and selector switch would indicate, this specific pistol is the select-fire Mk. IV.  Unfortunately, whilst it theoretically could still fit and feed .45 ACP, its higher pressure needs and its slightly altered feeding means it won't cycle. This also means it takes propretary magazines.",
+        "weight": "957 g",
+        "volume": "502 ml",
+        "longest_side": "255 mm",
+        "barrel_length": "180 mm",
+        "to_hit": {
+            "grip": "solid",
+            "length": "short",
+            "surface": "any",
+            "balance": "neutral" },
+        "price": "1450 USD",
+        "price_postapoc": "75 USD",
+        "material": [
+          "qt_steel",
+          "carbonfiber"
+        ],
+        "ammo": [
+          "460row"
+        ],
+        "durability": 10,
+        "blackpowder_tolerance": 68,
+        "min_cycle_recoil": 450,
+        "flags": [
+          "ALLOWS_BODY_BLOCK",
+          "EASY_CLEAN"
+        ],
+        "weapon_category": [
+          "AUTOMATIC_PISTOLS"
+        ],
+        "pocket_data": [
+          {
+            "magazine_well": "300 ml",
+            "pocket_type": "MAGAZINE_WELL",
+            "item_restriction": [
+              "sh_usp460mag",
+              "sh_usp460bigmag",
+              "sh_usp460bigbigmag"
+            ]
+          }
+        ],
+        "default_mods": [
+          "muzzle_weight"
+        ],
+        "melee_damage": {"bash": 8},
+    "modes": [
+        ["DEFAULT", "semi-auto", 1 ], 
+        ["BURST","'controlled'burst", 3 ], 
+        ["AUTO", "auto", 7 ] 
+        ]
+    },
+    {
+      "type": "GUN",
+      "reload_noise_volume": 10,
+      "//": "Based on the KS-23M",
+      "handling": 18,
+      "id": "sh_ks-23m",
+      "name": {"str": "Shooterson Hardware KC-123"},
+      "description":"A nearly completely clone correct KS-23M built By Shooterson Industries. Aside of course, from the fact that it now chambers American/British spec 4 gauge ammunition, making the already huge 'carbine' even larger. Marginally less powerful than a typical full length shotgun of its type due to its short barrel. How this somehow isn't an NFA item is anyones guess.",
+      "symbol": "(",
+      "looks_like":"remington_870_breacher",
+      "color": "light_gray",
+      "faults": [
+        "fault_gun_blackpowder",
+        "fault_gun_dirt",
+        "fault_gun_chamber_spent",
+        "fault_fail_to_feed",
+        "fault_double_feed"
+      ],
+      "ranged_damage": {
+        "damage_type": "bullet",
+        "amount": -2
+      },
+      "skill": "shotgun",
+      "ammo": [
+        "4ga_shot"
+      ],
+      "valid_mod_locations": [
+        [
+          "barrel",
+          1
+        ],
+        [
+          "bore",
+          1
+        ],
+        [
+          "brass catcher",
+          1
+        ],
+        [
+          "mechanism",
+          3
+        ],
+        [
+          "rail",
+          2
+        ],
+        [
+          "sights",
+          1
+        ],
+        [
+          "sling",
+          1
+        ],
+        [
+          "stock",
+          1
+        ],
+        [
+          "stock accessory",
+          2
+        ],
+        [
+          "underbarrel",
+          1
+        ]
+      ],
+      "weight": "3500 g",
+      "volume": "2100  ml",
+      "longest_side": "875 mm",
+      "barrel_length": "350 mm",
+      "price": "3 kUSD 500 USD",
+      "price_postapoc": "82 USD",
+      "durability": 10,
+      "blackpowder_tolerance": 68,
+      "barrel_volume": "76 ml",
+      "dispersion": 300,
+      "to_hit": 
+            {"grip": "weapon",
+            "length": "short",
+            "surface": "any",
+            "balance": "neutral"},
+      "material": [
+        "qt_steel",
+        "aluminum",
+        "carbonfiber"
+      ],
+      "default_mods": [
+        "wire_stock"
+      ],
+      "flags": [
+        "NO_TURRET",
+        "RELOAD_ONE",
+        "EASY_CLEAN",
+        "PUMP_ACTION"
+      ],
+      "pocket_data": [
+        {
+          "pocket_type": "MAGAZINE",
+          "rigid": true,
+          "ammo_restriction": {
+            "4ga_shot": 4
+          }
+        }
+      ],
+      "modes": [
+        [
+          "DEFAULT",
+          "single",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "GUN",
+      "reload_noise_volume": 10,
+      "//": "The length, weight, and volume numbers are assigned to, roughly, represent an MDRX without a protruding barrel and the 'light grip', 'high end folding stock without the folding, and 'modern foregrip' mods. the difference will be made up for with the installable conversion kits.",
+      "handling": 31,
+      "name": {
+        "str": "Shooterson hardware M11 rifle"
+      },
+      "symbol": "(",
+      "color": "black",
+      "faults": [
+        "fault_gun_blackpowder",
+        "fault_gun_dirt",
+        "fault_gun_chamber_spent",
+        "fault_fail_to_feed",
+        "fault_stovepipe",
+        "fault_double_feed"
+      ],
+      "ranged_damage": {
+        "damage_type": "bullet",
+        "amount": 0
+      },
+      "skill": "rifle",
+      "valid_mod_locations": [
+        [
+          "bore",
+          1
+        ],
+        [
+          "grip",
+          1
+        ],
+        [
+          "mechanism",
+          2
+        ],
+        [
+          "rail",
+          2
+        ],
+        [
+          "sights",
+          1
+        ],
+        [
+          "sling",
+          1
+        ],
+        [
+          "stock accessory",
+          2
+        ],
+        [
+          "underbarrel",
+          1
+        ]
+      ],
+      "weapon_category": [
+        "AUTOMATIC_RIFLES"
+      ],
+      "id": "sh_mdrx",
+      "looks_like": "modular_ar15",
+      "description": "Originally produced by the Desert Tech company, this is a highly modular, semi-automatic rifle of remarkably modest dimensions, made even more advanced by Shooterson Industries.  The weapon is notable for the simplicity of converting it to fire a wide number of different cartridges. Unfortunately due to the extensive modifications and legal reasons, the M-11 is unable to mount the original Desert Tech retool kits.",
+      "weight": "2330 g",
+      "volume": "3100 ml",
+      "longest_side": "400 mm",
+      "price": "1 kUSD 750 USD",
+      "price_postapoc": "60 USD",
+      "to_hit": -1,
+      "material": [
+        "aluminum",
+        "qt_steel",
+        "carbonfiber"
+      ],
+      "ammo": [
+        "NULL"
+      ],
+      "dispersion": 143,
+      "durability": 9,
+      "blackpowder_tolerance": 46,
+      "min_cycle_recoil": 1250,
+      "flags": [
+        "NO_TURRET"
+      ],
+      "//2": "This should be removed once vehicle turrets are capable of mounting guns with mods attached. As it stands, trying to mount this style of weapon would require the player to remove the conversion kit, thus rendering it unusable anyhow.",
+      "pocket_data": [
+        {
+          "pocket_type": "MAGAZINE_WELL",
+          "item_restriction": [
+            "stanag30",
+            "stanag5",
+            "stanag5ranger",
+            "stanag10",
+            "stanag10ranger",
+            "stanag20",
+            "stanag20ranger",
+            "stanag30ranger",
+            "stanag40",
+            "stanag40ranger",
+            "stanag50",
+            "stanag60",
+            "stanag60drum",
+            "stanag90",
+            "stanag100",
+            "stanag100drum",
+            "stanag150",
+            "ar10mag_20rd",
+            "ar10mag_10rd",
+            "ar10mag_25rd",
+            "ar10mag_50rd",
+            "ar10_makeshiftmag",
+            "survivor223mag",
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag"
+          ]
+        }
+      ],
+      "melee_damage": {
+        "bash": 14
+      }
+    }
+]

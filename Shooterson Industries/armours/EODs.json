@@ -1,0 +1,422 @@
+[
+    {
+        "id": "sh_jacket_eod_heavy",
+        "type": "ITEM",
+        "subtypes": [
+          "TOOL",
+          "ARMOR"
+        ],
+        "category": "armor",
+        "name": {
+          "str": "reinforced EOD armour "
+        },
+        "description": "A once pretty typical EOD jacket has been heavily reinforced using various other bits of pre-catyclysm armour, including ballistic armour. For use by some post-apocolyptic nutjobs who don't like breathing but like not being peirced by bullets.  It features a central pocket for a large plate, and near complete coverage in fragmentation resistant materials. It also features pockets for normal ballistic plates, as well as deltoid plates, because whilst it originally may not have been bullet resistant, whoever made this suit certainly wants it to be.",
+        "weight": "15500 g",
+        "volume": "18 L",
+        "price": "22 kUSD 90 USD",
+        "price_postapoc": "180 USD",
+        "warmth": 69,
+        "material": [ "kevlar", "plastic_pad", "nomex", "kevlar_layered", "thermo_resin" ],
+        "symbol": "[",
+        "color": "light_green",
+        "looks_like":"jacket_eod",
+        "environmental_protection": 8,
+        "material_thickness": 15,
+        "flags": [
+          "STURDY",
+          "OUTER",
+          "RAINPROOF",
+          "VARSIZE"
+        ],
+        "use_action": [
+          {
+            "type": "attach_molle",
+            "size": 18
+          },
+          {
+            "type": "detach_molle"
+          }
+        ],
+        "pocket_data": [
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "3000 ml",
+            "max_contains_weight": "7 kg",
+            "max_item_length": "46 cm",
+            "moves": 1100,
+            "description": "Pocket for a EOD front plate.",
+            "flag_restriction": [
+              "ABLATIVE_LARGE"
+            ]
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "2000 ml",
+            "max_contains_weight": "5 kg",
+            "max_item_length": "33 cm",
+            "moves": 800,
+            "description": "Pocket for a large armor plate.",
+            "flag_restriction": [
+              "ABLATIVE_LARGE"
+            ]
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "2000 ml",
+            "max_contains_weight": "5 kg",
+            "max_item_length": "33 cm",
+            "moves": 800,
+            "description": "Pocket for a large armor plate.",
+            "flag_restriction": [
+              "ABLATIVE_LARGE"
+            ]
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "800 ml",
+            "max_contains_weight": "2 kg",
+            "max_item_length": "21 cm",
+            "moves": 800,
+            "description": "Pocket for a medium armor plate.",
+            "flag_restriction": [
+              "ABLATIVE_MEDIUM"
+            ]
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "800 ml",
+            "max_contains_weight": "2 kg",
+            "max_item_length": "21 cm",
+            "moves": 800,
+            "description": "Pocket for a medium armor plate.",
+            "flag_restriction": [
+              "ABLATIVE_MEDIUM"
+            ]
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "1658 ml",
+            "max_contains_weight": "1600 kg",
+            "max_item_length": "22 cm",
+            "min_item_length": "21 cm",
+            "moves": 800,
+            "description": "Pockets for deltoid armor plates.",
+            "flag_restriction": [
+              "ABLATIVE_MEDIUM"
+            ]
+          }
+        ],
+        "armor": [
+          {
+            "material": [
+              { "type": "nylon", "covered_by_mat": 100, "thickness": 3.2 },
+              { "type": "kevlar", "covered_by_mat": 100, "thickness": 6.2 },
+              { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 2 },
+              { "type": "nomex", "covered_by_mat":100, "thickness": 2},
+              { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 },
+              { "type": "thermo_resin", "covered_by_mat": 85, "thickness" :1.2 }
+            ],
+            "coverage": 100,
+            "cover_vitals": 100,
+            "covers": [ "torso"  ],
+            "encumbrance": 76,
+            "volume_encumber_modifier": 0.15
+          },
+          {
+              "covers": [ "arm_l","arm_r"],
+              "encumbrance": 74,
+              "coverage": 100,
+              "cover_vitals":100,
+              "material": [
+                { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 3.2 },
+                { "type": "nylon", "covered_by_mat": 100, "thickness": 1.2 },
+                { "type": "kevlar", "covered_by_mat": 100, "thickness": 6.2 },
+                { "type": "nomex", "covered_by_mat":100, "thickness": 2},
+                { "type": "thermo_resin", "covered_by_mat": 85,"thickness": 1.75 }
+              ],
+              "specifically_covers": [ "arm_lower_l", "arm_lower_r", "arm_elbow_l", "arm_elbow_r" ]
+          },
+          {
+            "material": [
+              { "type": "nylon", "covered_by_mat": 100, "thickness": 2.3 },
+              { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 },
+              { "type": "kevlar", "covered_by_mat": 100, "thickness": 6.2 },
+              { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 2 },
+              { "type": "nomex", "covered_by_mat":100, "thickness": 2},
+              { "type": "thermo_resin", "covered_by_mat": 85,"thickness": 1.25 }
+          ],
+            "coverage": 100,
+            "cover_vitals": 100,
+            "covers": [ "arm_l", "arm_r" ],
+            "specifically_covers": [ "arm_shoulder_l", "arm_shoulder_r", "arm_upper_l", "arm_upper_r" ]
+          }
+        ]
+      },
+      {
+        "id": "sh_trousers_eod_heavy",
+        "type": "ITEM",
+        "subtypes": [
+          "ARMOR"
+        ],
+        "category": "armor",
+        "name": { "str_sp": "reinforced EOD trousers" },
+        "looks_like": "trousers_eod",
+        "description": "A once pretty typical pair of EOD trousers has been heavily reinforced using various other bits of pre-catyclysm armour, including ballistic armour. For use by some post-apocolyptic nutjobs who don't like breathing but like not being peirced by bullets.  It features near complete coverage in fragmentation resistant materials, and whilst it originally may not have been bullet resistant, whoever made this pair of trousers certainly wants it to be.",
+        "weight": "7400 g",
+        "volume": "7 L",
+        "price": "10 kUSD 60 USD",
+        "price_postapoc": "120 USD",
+        "warmth": 65,
+        "material": [
+          "kevlar",
+          "nomex",
+          "kevlar_layered",
+          "thermo_resin"
+        ],
+        "symbol": "[",
+        "color": "light_green",
+        "environmental_protection": 6,
+        "material_thickness": 15,
+        "flags": [
+          "STURDY",
+          "OUTER",
+          "RAINPROOF",
+          "VARSIZE"
+        ],
+        "use_action": [
+          {
+            "type": "attach_molle",
+            "size": 12
+          },
+          {
+            "type": "detach_molle"
+          }
+        ],
+        "armor": [
+          {
+            "material": [
+              { "type": "nylon", "covered_by_mat": 100, "thickness": 2.3 },
+              { "type": "kevlar", "covered_by_mat": 100, "thickness": 6.2 },
+              { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 2 },
+              { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 },
+              { "type": "nomex", "covered_by_mat":100, "thickness": 2}
+            ],
+            "coverage": 100,
+            "cover_vitals": 100,
+            "covers": [ "leg_l", "leg_r" ],
+            "specifically_covers":[ "leg_hip_l", "leg_hip_r", "leg_upper_l", "leg_upper_r" ],
+            "encumbrance": 74
+          },
+          {
+            "covers": [ "leg_l", "leg_r" ],
+            "coverage": 100,
+            "cover_vitals":100,
+            "material": [
+                { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 3.2 },
+                { "type": "nylon", "covered_by_mat": 100, "thickness": 1.2 },
+                { "type": "kevlar", "covered_by_mat": 100, "thickness": 6.2 },
+                { "type": "nomex", "covered_by_mat":100, "thickness": 2},
+                { "type": "thermo_resin", "covered_by_mat": 85,"thickness": 1.75 }
+              ],
+              "specifically_covers": [ "leg_knee_l", "leg_knee_r", "leg_lower_l", "leg_lower_r" ]
+          }
+        ]
+      },
+      {
+        "id": "sh_helmet_eod_heavy",
+        "type": "ITEM",
+        "subtypes": [
+          "TOOL",
+          "ARMOR"
+        ],
+        "category": "armor",
+        "name": {"str": "heavy EOD helmet"},
+        "description": "An enormous heavily-armored, electronically-shielded, and reinforced helmet containing a camera, a two-way radio, and a headlamp, all of which can be voice-activated for redundancy.  It was designed to protect against overpressure, fragmentation, impact, and heat, though with the extra reinforcing and a integrated repirator, it can now handle a myriad more threats. The electronic components have since been replaced with ones that run off of a strange radioelectric source, as well as being fully detachable.",
+        "weight": "6600 g",
+        "volume": "4 L",
+        "looks_like":"helmet_eod",
+        "price": "16 kUSD 139 USD",
+        "price_postapoc": "200 USD",
+        "armor": [
+          {
+            "material": [
+              { "type": "kevlar_rigid", "covered_by_mat": 100, "thickness": 6.5 },
+              { "type": "plastic_pad", "covered_by_mat": 100, "thickness": 7.6 },
+              { "type": "nomex", "covered_by_mat": 100, "thickness": 2 },
+              { "type": "nylon", "covered_by_mat": 100, "thickness": 0.8 },
+              { "type": "thermo_resin", "covered_by_mat": 82,"thickness": 2.25}, 
+              { "type":"aluminum", "covered_by_mat": 44, "thickness":0.24 }
+            ],
+            "covers": [
+              "head"
+            ],
+            "coverage": 100,
+            "layers": [
+              "OUTER",
+              "NORMAL"
+            ],
+            "encumbrance": 52
+          },
+          {
+            "material": [
+              { "type": "hard_plastic_transp", "covered_by_mat": 100, "thickness": 17.5 },
+              { "type": "kevlar_rigid", "covered_by_mat": 100, "thickness": 2.4 },
+              { "type": "thermo_resin", "covered_by_mat": 72,"thickness": 1.45 },
+              { "type": "nomex", "covered_by_mat":100, "thickness": 2 }
+            ],
+            "covers": [ "mouth" ],
+            "coverage": 100,
+            "encumbrance": 22,
+            "layers": [ "OUTER", "NORMAL" ],
+            "rigid_layer_only": true
+          },
+          {
+            "material": [
+              { "type": "hard_plastic_transp", "covered_by_mat": 100, "thickness": 17.5 },
+              { "type": "kevlar_rigid", "covered_by_mat": 82, "thickness": 2.4 },
+              { "type": "thermo_resin", "covered_by_mat": 100,"thickness": 0.85 }
+            ],
+            "covers": [ "eyes" ],
+            "coverage": 100,
+            "encumbrance": 16,
+            "layers": [ "OUTER" ],
+            "rigid_layer_only": true
+          }
+        ],
+        "warmth": 65,
+        "material": [ "kevlar_rigid", "hard_plastic_transp", "plastic_pad", "nomex" ],
+        "symbol": "[",
+        "color": "light_green",
+        "pocket_data": [
+           {
+            "pocket_type": "MAGAZINE_WELL",
+            "rigid": true,
+            "flag_restriction": [ "GASFILTER_MED" ],
+            "default_magazine": "gasfilter_med"
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "400 ml",
+            "max_contains_weight": "200 g",
+            "max_item_length": "30 cm",
+            "moves": 1800,
+            "description": "mounting system for electronic rig.",
+            "flag_restriction": ["HELMET_HEAD_ATTACHMENT"],
+            "inherits_flags": true
+          },
+          {
+            "pocket_type": "CONTAINER",
+            "rigid": true,
+            "ablative": true,
+            "volume_encumber_modifier": 0,
+            "max_contains_volume": "200 ml",
+            "max_contains_weight": "1 kg",
+            "max_item_length": "10 cm",
+            "moves": 380,
+            "description": "A space behind the visor designed to accommodate the installation of inserts.",
+            "flag_restriction": [
+              "PANORAMIC_INSERT"
+            ],
+            "inherits_flags": true
+          }
+        ],
+        "ammo": "gasfilter_m",
+        "use_action": [ 
+          "GASMASK_ACTIVATE" 
+        ],
+        "tick_action": [ 
+          "GASMASK" 
+        ],
+        "environmental_protection": 4,
+        "environmental_protection_with_filter": 16,
+        "flags": [
+          "STURDY",
+          "OUTER",
+          "RAINPROOF",
+          "PADDED",
+          "WATCH",
+          "VARSIZE",
+          "ALARMCLOCK",
+          "SUN_GLASSES",
+          "FLASH_PROTECTION"
+        ],
+        "qualities": [ [ "GLARE", 1 ] ]
+      },
+      {
+        "id": "sh_light_eod_pseudo",
+        "type": "ITEM",
+        "subtypes": [
+          "TOOL",
+          "ARMOR"
+        ],
+        "category": "armor",
+        "symbol": "[",
+        "color": "light_gray",
+        "name": { "str": "EOD integrated lighting rig" },
+        "description": "the electronic rig of a reinforced EOD helmet containing a camera, a two-way radio, and a headlamp, all of which can be voice-activated for redundancy. The electronic components have since been replaced with ones that run off of a strange radioelectric source. Cannot be worn on its own, and must to attached to the integrated mounting system. Activate to turn on.",
+        "flags": [ "WATERPROOF", "STURDY", "SLEEP_IGNORE", "PADDED", "CANT_WEAR", "HELMET_HEAD_ATTACHMENT"],
+        "price": "1 kUSD",
+        "price_postapoc": "10 USD 50 cent",
+        "material": [ "plastic", "nomex", "aluminum" ],
+        "weight": "200 g",
+        "volume": "400 ml",
+        "use_action":[
+          {       
+        "type": "transform",
+        "menu_text": "Turn on headlamps",
+        "msg": "\"Activating illumination.\"",
+        "target": "sh_light_eod_pseudo_on",
+        "active" : true 
+          } 
+        ],
+        "armor": [
+          {
+            "material": [
+              { "type": "plastic", "covered_by_mat": 100, "thickness": 0.2 },
+              { "type": "aluminum", "covered_by_mat":44, "thickness": 0.24 }
+            ],
+            "covers": [ "head" ],
+            "coverage": 20,
+            "encumbrance": 3,
+            "specifically_covers" : ["head_crown"]
+          }
+        ]
+      },
+      {
+        "id": "sh_light_eod_pseudo_on",
+        "type": "ITEM",
+        "subtypes": [
+          "TOOL",
+          "ARMOR"
+        ],
+        "category": "armor",
+        "name": { "str": "EOD integrated lighting rig (on)" },
+        "description": "the electronic rig of a reinforced EOD helmet containing a camera, a two-way radio, and a headlamp, all of which can be voice-activated for redundancy. The electronic components have since been replaced with ones that run off of a strange radioelectric source. Cannot be worn on its own, and must to attached to the integrated mounting system. Activate to turn off",
+        "copy-from": "sh_light_eod_pseudo",
+         "light": 300,
+        "use_action": [
+        {
+          "type": "transform",
+          "menu_text": "Turn off",
+          "msg": "\"Disabling ilumination.\" ",
+          "target": "sh_light_eod_pseudo"
+        }
+      ],
+        "flags": [ "TWO_WAY_RADIO"]
+      }
+    ]
+     
