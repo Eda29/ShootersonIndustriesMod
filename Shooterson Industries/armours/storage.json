@@ -2,7 +2,7 @@
     {
         "id": "sh_supersack",
         "type": "ITEM",
-       "subtypes": [ "ARMOR" ],
+        "subtypes": [ "ARMOR" ],
         "name": { "str": "T-110 heavy tactical rucksack" },
         "description": "An incredibly large external-frame rucksack, known by its internal designation of T-110e3.  Covered with straps for modularity, and with more features than you could shake a stick at, it maximalizes storage and being comfortable.  Can attach accessory pockets to the outside rigging. Quite waterproof, well, at least the main body is.",
         "weight": "3655 g",
@@ -330,5 +330,81 @@
             ]
           }
         ]
-      }
+      },
+      {
+        "id": "sh_deployment_bag",
+        "type": "ITEM",
+        "subtypes": [ "ARMOR" ],
+        "name": { "str": "T-41 tactical gear stach" },
+        "description": "A decent sized, durable bag marketed towards military personnel. Designed as a bigger, heavier duty alternative to other such bum bags on the market.  MOLLE webbing on the back lets you affix it to body armor or a backpack.",
+        "weight": "880 g",
+        "volume": "700 ml",
+        "price": "70 USD",
+        "price_postapoc": "7 USD",
+        "material": [
+            "nylon",
+            "neoprene"
+          ],
+        "symbol": "[",
+        "looks_like": "fanny",
+        "color": "green",
+        "pocket_data": [
+         {
+          "description": "Center pocket.",
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "3200 ml",
+          "max_contains_weight": "6 kg",
+          "max_item_length": "25 cm",
+          "moves": 100
+        },
+        {
+          "description": "Side pocket.",
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1000 ml",
+          "max_contains_weight": "6 kg",
+          "max_item_length": "15 cm",
+          "moves": 100
+        },
+        {
+          "description": "Side pocket.",
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1000 ml",
+          "max_contains_weight": "6 kg",
+          "max_item_length": "15 cm",
+          "moves": 100
+        },
+        {
+          "description": "Tool pouch.",
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "2800 ml",
+          "max_contains_weight": "8 kg",
+          "max_item_length": "305 mm",
+          "moves": 100
+        },
+        {
+          "description": "Pocket for a small gadget or flashlight",
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1000 ml",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "15 cm",
+          "moves": 65
+        }
+      ],
+      "material_thickness": 1.75,
+      "flags": [
+        "WATER_FRIENDLY",
+        "BELTED",
+        "PALS_LARGE"
+      ],
+      "armor": [
+        {
+          "encumbrance": 2,
+          "volume_encumber_modifier": 0.3,
+          "coverage": 45,
+          "covers": [ "torso" ],
+      "specifically_covers": [ "torso_lower" ]
+    }
+  ]
+}
+
 ]
