@@ -57,7 +57,7 @@
         "intelligence": 12,
         "time": "60 m",
         "chapters": 200,
-        "fun": -3,
+        "read_fun": -3,
         "melee_damage": {
           "bash": 6
         }
