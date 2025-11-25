@@ -1,0 +1,65 @@
+[
+    {
+        "name": {
+          "str": "annotated dossier - bodymesh"
+        },
+        "type": "ITEM",
+        "subtypes": [ "BOOK" ],
+        "category": "manuals",
+        "weight": "460 g",
+        "volume": "620 ml",
+        "price": "80 USD",
+        "price_postapoc": "80 USD",
+        "material": [
+          "paper"
+        ],
+        "symbol": "?",
+        "looks_like": "paper",
+        "required_level": 5,
+        "intelligence": 6,
+        "time": "25 m",
+        "id": "sh_bp_bodyglove",
+        "description": "A mildly oversized manila envelope with 'Top Secret' as well as numerous seals stamped onto it. It contains a simple printed pamphlet with clear illustrations and, originally, few words describing how to a tight and protective bodysuit. This version, contained within the folder features annotations written in fine cursive, as well as summaries and breakdowns of some of the more confusing diagrams. Along with this schematic, there are numerous pages of various diagrams, chemical formulae, and calculations. As well as what seems to be a blueprint for a different, tougher looking bodysuit, yet just as light and easy to wear. you're fairly certain that the last addition was not intented for you to see. Due to the numerous annotations and broken down sections, it is marginally easier to understand, though at the cost of no longer being able to use them for its original design.",
+        "color": "blue",
+        "proficiencies": [
+          {
+            "proficiency": "prof_closures_waterproofing",
+            "fail_factor": 0.05
+          },
+          {
+            "proficiency":"prof_polymerworking",
+            "fail_factor":0.05
+          },
+          {
+            "proficiency": "prof_leatherworking",
+            "fail_factor": 0.05
+          }
+        ]
+      },
+      {
+        "id": "sh_obviousdayr_reference",
+        "type": "ITEM",
+        "subtypes": [ "BOOK" ],
+        "name": {
+          "str": "strange soviet tome"
+        },
+        "description": "A quite large and hefty leather-bound book bearing various seals that seemingly place it at being soviet in origins. Inside, the book seems to be handwritten entirely in some slavic language, likely Russian or Ukranian. Occasionally, you can make out what appear to be chemical formulae of some kind, as well as hand-drawn molecules which don't look very familiar to you. Throughout the book, you can see what looks to be a date reading '14.08.1984'. Perhaps it will make more sense if you could find someone who could read it.",
+        "weight": "1986 g",
+        "volume": "4000 ml",
+        "price": "800 USD",
+        "price_postapoc": "50 cent",
+        "material": [
+          "paper", "leather"
+        ],
+        "symbol": "?",
+        "looks_like": "textbook_firstaid",
+        "color": "yellow",
+        "intelligence": 12,
+        "time": "60 m",
+        "chapters": 200,
+        "fun": -3,
+        "melee_damage": {
+          "bash": 6
+        }
+      }
+]
