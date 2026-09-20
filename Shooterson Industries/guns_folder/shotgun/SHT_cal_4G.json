@@ -1,0 +1,82 @@
+[
+    {
+      "type": "GUN",
+      "reload_noise_volume": 10,
+      "//": "Based on the KS-23M",
+      "handling": 18,
+      "id": "sh_ks-23m",
+      "name": {"str": "Shooterson Hardware KC-123"},
+      "description":"A nearly completely clone correct KS-23M built By Shooterson Industries. Aside of course, from the fact that it now chambers American/British spec 4 gauge ammunition, making the already huge 'carbine' even larger. Marginally less powerful than a typical full length shotgun of its type due to its short barrel. How this somehow isn't an NFA item is anyones guess.",
+      "symbol": "(",
+      "looks_like":"remington_870_breacher",
+      "color": "light_gray",
+      "faults": [
+        "fault_gun_blackpowder",
+        "fault_gun_dirt",
+        "fault_gun_chamber_spent",
+        "fault_fail_to_feed",
+        "fault_double_feed"
+      ],
+      "ranged_damage": {
+        "damage_type": "bullet",
+        "amount": -2
+      },
+      "skill": "shotgun",
+      "ammo": [
+        "4ga_shot"
+      ],
+      "valid_mod_locations": [
+        [ "barrel", 1 ],
+        [ "bore", 1 ],
+        [ "brass catcher", 1 ],
+        [ "mechanism", 3 ],
+        [ "rail", 2 ],
+        [ "sights", 1 ],
+        [ "sling", 1 ],
+        [ "stock", 1 ],
+        [ "stock accessory", 2 ],
+        [ "underbarrel", 1 ]
+      ],
+      "weight": "3500 g",
+      "volume": "2100  ml",
+      "longest_side": "875 mm",
+      "barrel_length": "350 mm",
+      "price": "3 kUSD 500 USD",
+      "price_postapoc": "82 USD",
+      "durability": 10,
+      "blackpowder_tolerance": 68,
+      "barrel_volume": "76 ml",
+      "dispersion": 300,
+      "to_hit": 
+            {"grip": "weapon",
+            "length": "short",
+            "surface": "any",
+            "balance": "neutral"},
+      "material": [
+        "qt_steel",
+        "aluminum",
+        "carbonfiber"
+      ],
+      "default_mods": [
+        "wire_stock"
+      ],
+      "flags": [
+        "NO_TURRET",
+        "RELOAD_ONE",
+        "EASY_CLEAN",
+        "PUMP_ACTION"
+      ],
+      "pocket_data": [
+        {
+          "pocket_type": "MAGAZINE",
+          "rigid": true,
+          "ammo_restriction": {
+            "4ga_shot": 4
+          }
+        }
+      ],
+      "modes": [
+        [ "DEFAULT", "single", 1 ] ]
+    },
+]
+

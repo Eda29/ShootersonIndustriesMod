@@ -1,0 +1,100 @@
+[
+     {
+      "type": "GUN",
+      "reload_noise_volume": 10,
+      "//": "The length, weight, and volume numbers are assigned to, roughly, represent an MDRX without a protruding barrel and the 'light grip', 'high end folding stock without the folding, and 'modern foregrip' mods. the difference will be made up for with the installable conversion kits.",
+      "handling": 31,
+      "name": { "str": "Shooterson hardware M11 rifle" },
+      "symbol": "(",
+      "color": "black",
+      "faults": [
+        "fault_gun_blackpowder",
+        "fault_gun_dirt",
+        "fault_gun_chamber_spent",
+        "fault_fail_to_feed",
+        "fault_stovepipe",
+        "fault_double_feed"
+      ],
+      "ranged_damage": {
+        "damage_type": "bullet",
+        "amount": 0
+      },
+      "skill": "rifle",
+      "valid_mod_locations": [
+        [ "bore", 1 ],
+        [ "grip", 1 ],
+        [ "mechanism", 2 ],
+        [ "rail", 2 ],
+        ["sights", 1 ],
+        [ "sling", 1 ],
+        [ "stock accessory", 2 ],
+        [ "underbarrel", 1 ]
+      ],
+      "weapon_category": [
+        "AUTOMATIC_RIFLES"
+      ],
+      "id": "sh_mdrx",
+      "looks_like": "modular_ar15",
+      "description": "Originally produced by the Desert Tech company, this is a highly modular, semi-automatic rifle of remarkably modest dimensions, made even more advanced by Shooterson Industries.  The weapon is notable for the simplicity of converting it to fire a wide number of different cartridges. Unfortunately due to the extensive modifications and legal reasons, the M-11 is unable to mount the original Desert Tech retool kits.",
+      "weight": "2330 g",
+      "volume": "3100 ml",
+      "longest_side": "400 mm",
+      "price": "1 kUSD 750 USD",
+      "price_postapoc": "60 USD",
+      "to_hit": -1,
+      "material": [
+        "aluminum",
+        "qt_steel",
+        "carbonfiber"
+      ],
+      "ammo": [
+        "NULL"
+      ],
+      "dispersion": 143,
+      "durability": 9,
+      "blackpowder_tolerance": 46,
+      "min_cycle_recoil": 1250,
+      "flags": [
+        "NO_TURRET"
+      ],
+      "//2": "This should be removed once vehicle turrets are capable of mounting guns with mods attached. As it stands, trying to mount this style of weapon would require the player to remove the conversion kit, thus rendering it unusable anyhow.",
+      "pocket_data": [
+        {
+          "pocket_type": "MAGAZINE_WELL",
+          "item_restriction": [
+            "stanag30",
+            "stanag5",
+            "stanag5ranger",
+            "stanag10",
+            "stanag10ranger",
+            "stanag20",
+            "stanag20ranger",
+            "stanag30ranger",
+            "stanag40",
+            "stanag40ranger",
+            "stanag50",
+            "stanag60",
+            "stanag60drum",
+            "stanag90",
+            "stanag100",
+            "stanag100drum",
+            "stanag150",
+            "ar10mag_20rd",
+            "ar10mag_10rd",
+            "ar10mag_25rd",
+            "ar10mag_50rd",
+            "ar10_makeshiftmag",
+            "survivor223mag",
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag"
+          ]
+        }
+      ],
+      "melee_damage": {
+        "bash": 14
+      }
+    } 
+]

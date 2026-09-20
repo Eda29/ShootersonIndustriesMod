@@ -403,6 +403,121 @@
           "coverage": 45,
           "covers": [ "torso" ],
       "specifically_covers": [ "torso_lower" ]
+    },
+    {
+  "id": "sh_bigammo_pouch",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "name": {
+    "str": "SI 28-M ammo stacker",
+    "str_pl": "SI 28-M ammo stackers"
+  },
+  "description": "A collection of 8 pockets, 3 wide and 2 deep, with two extra-large wing pockets designed to hold magazines and keep them accessible and secure. Intended for use as a standalone chest rig but features straps to attach it to a vest. Has additional MOLLE webbing on the outside that allows for more equipment, effectively reducing its space usage.",
+  "weight": "850 g",
+  "volume": "1200 ml",
+  "price": "70 USD",
+  "price_postapoc": "10 USD",
+  "material": [
+    "nylon",
+    "neoprene"
+  ],
+  "symbol": "[",
+  "looks_like": "holster",
+  "color": "dark_gray",
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "360 ml",
+      "max_contains_weight": "2 kg",
+      "moves": 40,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.28
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "360 ml",
+      "max_contains_weight": "2 kg",
+      "moves": 40,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.28
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "360 ml",
+      "max_contains_weight": "2 kg",
+      "moves": 40,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.28
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "400 ml",
+      "max_contains_weight": "3 kg",
+      "moves": 35,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.3
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "400 ml",
+      "max_contains_weight": "3 kg",
+      "moves": 35,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.3
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "240 mm",
+      "max_contains_volume": "400 ml",
+      "max_contains_weight": "3 kg",
+      "moves": 35,
+      "flag_restriction": [ "MAG_COMPACT" ],
+      "volume_encumber_modifier": 0.3
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "330 mm",
+      "max_contains_volume": "1650 ml",
+      "max_contains_weight": "4 kg",
+      "moves": 45,
+      "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ],
+      "volume_encumber_modifier": 0.3
+    },
+    {
+      "pocket_type": "CONTAINER",
+      "max_item_length": "330 mm",
+      "max_contains_volume": "1650 ml",
+      "max_contains_weight": "4 kg",
+      "moves": 45,
+      "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ],
+      "volume_encumber_modifier": 0.3
+  }
+  ],
+  "material_thickness": 2.5,
+  "flags": [
+    "BELTED",
+    "OVERSIZE",
+    "WATER_FRIENDLY",
+    "PALS_LARGE"
+  ],
+  "armor": [
+    {
+      "encumbrance": 1,
+      "coverage": 60,
+      "covers": 
+        [ "torso" ],
+      "specifically_covers": 
+        [ "torso_upper" ]
+    }
+  ]
+}
     }
   ]
 }

@@ -7,9 +7,9 @@
         "name": {
           "str": "USP .460 14-round magazine"
         },
-         "description": "A not quite standared capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Though it has a slight increase in capacity over regular USP 45 magazines, due to differing internal geometry allowed by the new material and optimizations of the spring, it isn't any bigger. in fact, it is even marginally slimmer than normal.",
+         "description": "A not quite standared capacity stamped steel magazine designed specfically to feed the Shooterson Industries UP-46 pistols. Though it has a slight increase in capacity over regular USP 45 magazines. Due to re-engineered internal geometry and optimizations of the spring, it isn't any bigger. in fact, it is even marginally slimmer.",
         "weight": "105 g",
-        "volume": "98 ml",
+        "volume": "106 ml",
         "longest_side": "127 mm",
         "price": "60 USD",
         "price_postapoc": "3 USD",
@@ -42,7 +42,7 @@
         "name": {
           "str": "USP .460 21-round magazine"
         },
-         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Due to differing internal geometry allowed by the new material and optimizations of the spring, it is marginally slimmer than a comparible USP magazine of the same size.",
+         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries UP-46 pistols. It has re-engineered internal geometry and optimizations of the spring, allowing for greater capacity for a given length. It is even marginally slimmer than a standard magazine of comparible size.",
         "weight": "167 g",
         "volume": "142 ml",
         "longest_side": "196 mm",
@@ -77,7 +77,7 @@
         "name": {
           "str": "USP .460 28-round magazine"
         },
-         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries USP .460 pistols. Due to differing internal geometry allowed by the new material and optimizations of the spring, it is marginally slimmer than a comparible USP magazine of the same size. Strangely, all of the magazines you've found for this pistol have been multiples of 7.",
+         "description": "An extended capacity stamped steel magazine designed specfically to feed the Shooterson Industries UP-46 pistols. It has re-engineered internal geometry and optimizations of the spring, allowing for greater capacity for a given length. It is even marginally slimmer than a standard magazine of comparible size. Strangely, all of the magazines for this pistol so far have been multiples of 7.",
         "weight": "195 g",
         "volume": "176 ml",
         "longest_side": "213 mm",
@@ -104,4 +104,5 @@
           }
         ] 
       }
+
 ]

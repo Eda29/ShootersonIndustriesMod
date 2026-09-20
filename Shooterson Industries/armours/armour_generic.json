@@ -8,7 +8,7 @@
             "str": "wanderer's bodymesh",
             "str_pl": "wanderer's bodymeshes"
         },
-      "description": "A quite complex and perhaps a little over-engineered skintight bodysuit that is protective, yet incredibly light and breathable.  It is made in a manner not unlike composite armor, or perhaps a very disgusting layercake. And it even features an advanced webbing of loose aramid fiber mesh for more protection. also features integrated feet and gloves. can be inexplicably adjusted for warmth. activate to tighten",
+      "description": "A quite complex and perhaps a little over-engineered skintight bodysuit that is protective, yet incredibly light and breathable.  It is made in a manner not unlike composite armor, or perhaps a very disgusting layercake. And it even features advanced webbing of loose aramid mesh for more protection. also features integrated feet and gloves. can be inexplicably adjusted for warmth. activate to tighten",
       "weight": "1025 g",
       "volume": "1078 ml",
       "price": "230 USD",
@@ -20,7 +20,12 @@
       "armor": [
         {
             "material": 
-            [{ "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },{ "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },{ "type": "neoprene", "covered_by_mat": 100, "thickness": 1.0 },{ "type": "kevlar", "covered_by_mat": 44, "thickness": 0.62 }],
+            [
+                { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },
+                { "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },
+                { "type": "neoprene", "covered_by_mat": 100, "thickness": 1.0 },
+                { "type": "kevlar", "covered_by_mat": 44, "thickness": 0.62 }
+            ],
             "covers": ["torso", "arm_l", "arm_r", "leg_l", "leg_r"],
             "coverage": 100,
             "encumbrance": 1,
@@ -28,7 +33,12 @@
         },
         {
             "material": 
-            [ { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },{ "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },{ "type": "neoprene", "covered_by_mat": 100, "thickness": 0.8 }, { "type": "kevlar", "covered_by_mat": 44, "thickness": 0.54 } ],
+            [ 
+                { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 },
+                { "type": "nomex", "covered_by_mat": 100, "thickness": 1.2 },
+                { "type": "neoprene", "covered_by_mat": 100, "thickness": 0.8 }, 
+                { "type": "kevlar", "covered_by_mat": 44, "thickness": 0.54 } 
+            ],
             "covers": [ "foot_l","foot_r", "hand_l", "hand_r"],
             "specifically_covers":["foot_toes_r", "foot_toes_l", "foot_arch_r", "foot_arch_l", "foot_ankle_r", "foot_ankle_l", 
             "hand_back_l","hand_back_r","hand_wrist_l","hand_wrist_r","hand_fingers_l", "hand_fingers_r"],      
@@ -40,7 +50,14 @@
             "covers": ["foot_l","foot_r","hand_l","hand_r"],
               "specifically_covers": [
                 "foot_sole_r","foot_sole_l", "foot_heel_r", "foot_heel_l","hand_palm_r","hand_palm_l"],
-              "material": [ { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 }, { "type": "neoprene", "covered_by_mat":100, "thickness": 0.8 }, { "type":"nomex", "covered_by_mat":100, "thickness":1.2 }, { "type":"kevlar","covered_by_mat":80, "thickness":1.0}, { "type": "butyl_rubber", "covered_by_mat": 86,"thickness": 1.2} ],
+              "material": 
+            [ 
+                  { "type": "lycra", "covered_by_mat": 100, "thickness": 0.4 }, 
+                  { "type": "neoprene", "covered_by_mat":100, "thickness": 0.8 }, 
+                  { "type":"nomex", "covered_by_mat":100, "thickness":1.2 }, 
+                  { "type":"kevlar","covered_by_mat":80, "thickness":1.0}, 
+                  { "type": "butyl_rubber", "covered_by_mat": 86,"thickness": 1.2} 
+              ],
               "coverage": 100,      
             "encumbrance": 0,      
             "breathability": "GOOD"    
@@ -77,8 +94,7 @@
         "warmth": 22,  
         "material_thickness": 1,  
         "environmental_protection": 3,  
-        "flags": ["VARSIZE","COLLAR","SKINTIGHT","HOOD","STURDY","SOFT",
-            "WATER_FRIENDLY","RAINPROOF", "ALLOWS_NATURAL_ATTACKS"],
+        "flags": ["VARSIZE","COLLAR","SKINTIGHT","HOOD","STURDY","SOFT","WATER_FRIENDLY","RAINPROOF", "ALLOWS_NATURAL_ATTACKS"],
         "copy-from": "sh_bodymesh_open"
         },
     {
@@ -88,7 +104,7 @@
       "category": "armor",
       "name": {"str": "ballistic thigh protector", "str_pl": "ballistic thigh protectors"},
       "looks_like":"legguard_metal",
-      "description": "Nylon armor with soft armor inserts protecting the outer thighs. though these were designed to be worn along side heavy body armour or a special harness, you could clip it to your normal belt or even your pants if you're particularly desperate. though before the cataclysm these weren't particularly common, nowadays protection for your carotid arteries is quite appreaciated. come to think of it, despite them being relatively mass market, you haven't found any up until now, or you made them, either way, this seems odd. features some MOLLE webbing for making your legs more tacticool",
+      "description": "Nylon armor with soft armor inserts protecting the outer thighs. though these were designed to be worn along side heavy body armour or a special harness, you could clip it to a normal belt or pants if you're particularly desperate. though before the cataclysm these weren't particularly common, nowadays protection for your carotid arteries is quite appreaciated. come to think of it, despite them being relatively mass market, you haven't found any up until now, or you made them, either way, this seems odd. features MOLLE webbing for making your legs more tacticool",
       "weight": "854 g",
       "volume": "620 ml",
       "price": "600 USD",
@@ -102,7 +118,10 @@
       "use_action": [ { "type": "attach_molle", "size": 3 }, {"type": "detach_molle"} ],
       "armor": [
         {
-          "material": [ {"type": "nylon","covered_by_mat": 100,"thickness": 1.2 },{"type": "kevlar_layered","covered_by_mat": 95,"thickness": 4.4} ],
+          "material":  [ 
+                {"type": "nylon","covered_by_mat": 100,"thickness": 1.2 },
+                {"type": "kevlar_layered","covered_by_mat": 95,"thickness": 4.4} 
+            ],
           "encumbrance": 2,
           "coverage": 82,
           "cover_melee": 80,
@@ -126,7 +145,7 @@
       "subtypes": [ "ARMOR" ],
       "category": "armor",
       "name": {"str": "Deathwalker boots (pair)","str_pl": "Deathwalker boots (pairs)"},
-      "description": "A pair of quite heavy-duty looking tacticool boots constructed of 'patented supermaterials' and 'specially engineered construction' and other buzzwords to draw in and seperate the money from some rich prepper or mall-ninja type. However, these claims are actually true, even featuring a spike proof plate in the sole a-la old jungle boots. admittedly, they also look quite elegant in a sort of 'you could curb stomp a tank with these and the tank will come off worse' way. Keeps your feet frankly RIDICULOUSLY safe from all manner of the myriad threats of the apocolypse they were designed for.",
+      "description": "A pair of quite heavy-duty looking tacticool boots constructed of 'patented supermaterials' and 'specially engineered construction' and other buzzwords to draw in and seperate the money from some rich prepper or mall-ninja. However, these claims are actually true, even featuring a spike proof plate in the sole for more protection. admittedly, they also look quite elegant in a sort of 'you could stomp a tank with them and the tank will come off worse' way. Keeps your feet RIDICULOUSLY safe from all manner of the myriad threats of the apocolypse they were designed for.",
       "weight": "1860 g",
       "volume": "2500 ml",
       "price": "4000 USD",
@@ -538,3 +557,4 @@
       "armor": [ { "encumbrance": 4, "coverage": 20, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
     }
 ]
+

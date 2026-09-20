@@ -29,13 +29,8 @@
           "VARSIZE"
         ],
         "use_action": [
-          {
-            "type": "attach_molle",
-            "size": 18
-          },
-          {
-            "type": "detach_molle"
-          }
+          { "type": "attach_molle", "size": 18 },
+          { "type": "detach_molle" }
         ],
         "pocket_data": [
           {
@@ -43,13 +38,12 @@
             "ablative": true,
             "volume_encumber_modifier": 0,
             "max_contains_volume": "3000 ml",
+            "min_contains_volume": "2200ml",
             "max_contains_weight": "7 kg",
             "max_item_length": "46 cm",
             "moves": 1100,
             "description": "Pocket for a EOD front plate.",
-            "flag_restriction": [
-              "ABLATIVE_LARGE"
-            ]
+            "flag_restriction": [ "ABLATIVE_LARGE" ]
           },
           {
             "pocket_type": "CONTAINER",
@@ -108,7 +102,8 @@
             "ablative": true,
             "volume_encumber_modifier": 0,
             "max_contains_volume": "1658 ml",
-            "max_contains_weight": "1600 kg",
+            "min_contains_volume": "900",
+            "max_contains_weight": "1600 g",
             "max_item_length": "22 cm",
             "min_item_length": "21 cm",
             "moves": 800,
@@ -196,13 +191,8 @@
           "VARSIZE"
         ],
         "use_action": [
-          {
-            "type": "attach_molle",
-            "size": 12
-          },
-          {
-            "type": "detach_molle"
-          }
+          { "type": "attach_molle", "size": 12 },
+          { "type": "detach_molle" }
         ],
         "armor": [
           {
@@ -419,4 +409,5 @@
         "flags": [ "TWO_WAY_RADIO"]
       }
     ]
+
      

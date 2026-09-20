@@ -1,0 +1,86 @@
+[
+      {
+        "type": "GUN",
+        "reload_noise_volume": 8,
+        "handling": 12,
+        "symbol": "(",
+        "color": "dark_gray",
+        "faults": [
+          "fault_gun_blackpowder",
+          "fault_gun_dirt",
+          "fault_gun_chamber_spent",
+          "fault_fail_to_feed",
+          "fault_stovepipe",
+          "fault_double_feed"
+        ],
+        "ranged_damage": {
+          "damage_type": "bullet",
+          "amount": 0
+        },
+        "skill": "pistol",
+        "sight_dispersion": 55,
+        "valid_mod_locations": [
+          [ "barrel", 1 ],
+          [ "brass catcher", 1 ],
+          [ "mechanism", 3 ],
+          [ "magazine", 1 ],
+          [ "muzzle", 1 ],
+          [ "rail", 2 ],
+          [ "sights", 1 ],
+          [ "stock", 1 ],
+          [ "underbarrel", 1 ]
+        ],
+        "id": "sh_usp_460",
+        "looks_like": "usp_45",
+        "name": {"str": "Shooterson Industries UP-46 Mk. IV pistol"},
+        "description": "A venerable H&K USP pistol, or rather, a very good clone of one. Having served many years in both law enforcement and in militaries alike, it was the obvious choice for being picked up and 'refined' by Shooterson Industries. A scosh larger, fitted with a 180mm barrel, and an extended slide to match, it is seemingly unremarkible. Aside from the fact that it has been tuned, accurized, and rebalanced to hell and back, of course. Rechambered and re-engineered to fire the monstrous .460 Siberian Express, you're pretty sure you could take on a battalion of nuclear-powered supertanks. As the markings and selector switch would indicate, this specific pistol is a select-fire Mk. IV.  Unfortunately, whilst theoretically it can still fit and feed .45 ACP, its higher pressure needs and its slightly altered feeding means it won't cycle. This also means it takes propretary magazines.",
+        "weight": "957 g",
+        "volume": "502 ml",
+        "longest_side": "255 mm",
+        "barrel_length": "180 mm",
+        "to_hit": {
+            "grip": "solid",
+            "length": "short",
+            "surface": "any",
+            "balance": "neutral" },
+        "price": "1450 USD",
+        "price_postapoc": "75 USD",
+        "material": [
+          "qt_steel",
+          "carbonfiber"
+        ],
+        "ammo": [
+          "460row"
+        ],
+        "durability": 10,
+        "blackpowder_tolerance": 68,
+        "min_cycle_recoil": 450,
+        "flags": [
+          "ALLOWS_BODY_BLOCK",
+          "EASY_CLEAN"
+        ],
+        "weapon_category": [
+          "AUTOMATIC_PISTOLS"
+        ],
+        "pocket_data": [
+          {
+            "magazine_well": "300 ml",
+            "pocket_type": "MAGAZINE_WELL",
+            "item_restriction": [
+              "sh_usp460mag",
+              "sh_usp460bigmag",
+              "sh_usp460bigbigmag"
+            ]
+          }
+        ],
+        "default_mods": [
+          "muzzle_weight"
+        ],
+        "melee_damage": {"bash": 8},
+    "modes": [
+        ["DEFAULT", "semi-auto", 1 ], 
+        ["BURST","'controlled'burst", 3 ], 
+        ["AUTO", "auto", 7 ] 
+        ]
+    },
+]
